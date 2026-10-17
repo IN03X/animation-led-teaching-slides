@@ -1,0 +1,173 @@
+{
+  "assets": {
+    "pulse-types": {
+      "file": "demos/pulse-types/first.png",
+      "first": "demos/pulse-types/first.png",
+      "poster": "demos/pulse-types/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: pulse types. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "pam-formation": {
+      "file": "demos/pam-formation/first.png",
+      "first": "demos/pam-formation/first.png",
+      "poster": "demos/pam-formation/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: pam formation. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "sampling-replicas": {
+      "file": "demos/sampling-replicas/first.png",
+      "first": "demos/sampling-replicas/first.png",
+      "poster": "demos/sampling-replicas/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: sampling replicas. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "sampling-rate": {
+      "file": "demos/sampling-rate/first.png",
+      "first": "demos/sampling-rate/first.png",
+      "poster": "demos/sampling-rate/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: sampling rate. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "sampling-rate-up": {
+      "file": "demos/sampling-rate-up/first.png",
+      "first": "demos/sampling-rate-up/first.png",
+      "poster": "demos/sampling-rate-up/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: sampling rate up. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "pulse-response": {
+      "file": "demos/pulse-response/first.png",
+      "first": "demos/pulse-response/first.png",
+      "poster": "demos/pulse-response/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: pulse response. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "pam-spectrum": {
+      "file": "demos/pam-spectrum/first.png",
+      "first": "demos/pam-spectrum/first.png",
+      "poster": "demos/pam-spectrum/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: pam spectrum. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "read-samples": {
+      "file": "demos/read-samples/first.png",
+      "first": "demos/read-samples/first.png",
+      "poster": "demos/read-samples/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: read samples. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "sampling-lpf": {
+      "file": "demos/sampling-lpf/first.png",
+      "first": "demos/sampling-lpf/first.png",
+      "poster": "demos/sampling-lpf/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: sampling lpf. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "sinc-kernel": {
+      "file": "demos/sinc-kernel/first.png",
+      "first": "demos/sinc-kernel/first.png",
+      "poster": "demos/sinc-kernel/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: sinc kernel. Static entry; click once; final state retained.",
+      "durationMs": 5920,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "interpolation": {
+      "file": "demos/interpolation/first.png",
+      "first": "demos/interpolation/first.png",
+      "poster": "demos/interpolation/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: interpolation. Static entry; click once; final state retained.",
+      "durationMs": 7040,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "tdm-send": {
+      "file": "demos/tdm-send/first.png",
+      "first": "demos/tdm-send/first.png",
+      "poster": "demos/tdm-send/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: tdm send. Static entry; click once; final state retained.",
+      "durationMs": 7200,
+      "parameters": {
+        "note7Aligned": true
+      }
+    },
+    "tdm-receive": {
+      "file": "demos/tdm-receive/first.png",
+      "first": "demos/tdm-receive/first.png",
+      "poster": "demos/tdm-receive/last.png",
+      "width": 1120,
+      "height": 250,
+      "description": "Note 7: tdm receive. Static entry; click once; final state retained.",
+      "durationMs": 7200,
+      "parameters": {
+        "note7Aligned": true
+      }
+    }
+  },
+  "nativeFrameBackend": true,
+  "logicalSize": [
+    1120,
+    250
+  ],
+  "rasterSize": [
+    2240,
+    500
+  ],
+  "sampleInterpolationMaxError": 5.551115123125783e-17,
+  "singlePlay": true,
+  "minimumFontPx": 22,
+  "nativePlaybackTested": false
+}

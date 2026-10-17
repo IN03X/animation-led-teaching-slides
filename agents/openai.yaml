@@ -1,0 +1,6 @@
+interface:
+  display_name: "Animation-Led Teaching Slides"
+  short_description: "Teaching slides with clear mainlines, branches and results"
+  default_prompt: "Use $animation-led-teaching-slides to build a source-aligned teaching PowerPoint: establish the process, focus on necessary details, and return to the same process with usable results. Use the archived visual baseline and later corrected continuity case."
+policy:
+  allow_implicit_invocation: true

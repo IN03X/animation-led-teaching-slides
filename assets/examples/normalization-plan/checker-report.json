@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "states": 9,
+  "branches": 0,
+  "findings": [],
+  "claimBoundary": "Planning graph only. Does not certify visible continuity, mathematics, animation or native playback."
+}

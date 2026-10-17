@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "sourceRun": "rotation-r6",
+  "candidateSha256": "01450447b518fcef869eaedf79b108158067b26961a8817c4974853c76c1619c",
+  "sources": {
+    "lesson-story.mjs": "b08756df6a329bcd441f96ac9eb984102ffeac6df5b716db9023fe0a717e9314",
+    "lesson-demos.mjs": "490b1fa4abed451ab27abcb7ed0016ec7fb984e1c46184ef6809cfe174908515",
+    "source-ledger.md": "4f6b44ac0de825374b5c8e54248338ad464faeb879bca3b67faa7ad665d1a70a",
+    "story-map.json": "1132f276c95fc8f4f16f1dddf9acb560b3cd334972ced954b2430ae0ee7c5620",
+    "page-contract.json": "7565474356a25c7b9e296f66652947d81e8f97dbe4d4d75a7604f11c2aa7b7ae",
+    "prepare-contracts.py": "c93645e2875603b4961ad5630afcf2d2bd5160ac8461cac32e88091ab9a9b14d",
+    "topic-check.py": "b456570895065a2684a09dcfe572b1da194f8d8aa3e6513cddaca1a41bc56785",
+    "render-evidence.py": "be3bcd69f42192c1fd43a84e701cd9c67051e7186f8304f66f28313d1039e080"
+  },
+  "slides": 11,
+  "publicArtifact": "C:\\Users\\10486\\Desktop\\Personal\\\u535a\u4e00\\ELEG2310B\\output\\skill-validation\\Rotation_Continuity_Test.pptx",
+  "coldStartContextForked": false,
+  "coldStartOriginalProjectRead": false,
+  "firstCandidateFailedNarrativeAndVisualReview": true,
+  "finalRevisionUsedAuthorSelfReviewAndParentIndependentFeedback": true,
+  "nativePlaybackTested": false,
+  "timedRehearsal": false,
+  "userTeachingApproved": false,
+  "firstSourceBoundary": "Cold-first candidate/manifest/images are actual frozen artifact evidence; neighboring story files were edited concurrently and are not archived as exact first-build sources.",
+  "originalCourseOutputsUnchanged": 12
+}

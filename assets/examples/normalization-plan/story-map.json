@@ -1,0 +1,389 @@
+{
+  "lesson": "Normalize training table [10,20,30] to [0,1], then apply the saved rule to new value 25",
+  "audience": "Beginners who know subtraction and division; no previous course context assumed.",
+  "sourceLedger": [
+    {
+      "source": "Current user request",
+      "facts": [
+        "Training values [10,20,30]",
+        "Target [0,1]",
+        "New value 25; same established rule"
+      ]
+    },
+    {
+      "source": "Arithmetic derived in this map",
+      "facts": [
+        "min=10,max=30,span=20",
+        "training [0,0.5,1]",
+        "new value 0.75"
+      ]
+    }
+  ],
+  "delivery": {
+    "format": "Storyboard only, not a deck",
+    "canvas": "One persistent table, stable row identities and fixed columns; successive states are clicks, not nine slides.",
+    "plannedDuration": "Approximately 2-3 minutes, an unmeasured narration budget.",
+    "entry": "Static",
+    "clicks": 8,
+    "animation": "Only changed values or cells receive attention; scaffolding stays fixed; each operation runs once and holds.",
+    "navigation": "Ordinary sequential advance/back in a future implementation; no router or shortcut needed."
+  },
+  "branchDecision": "No branch is needed: selecting endpoints, subtracting, dividing, and saving the rule fit legibly in the main table. No zoom or artificial focus/return states.",
+  "objects": {
+    "training-table": "Persistent rows A=10, B=20, C=30; columns x, x-10, (x-10)/20 begin blank except x.",
+    "bounds": "Training minimum and maximum annotations attached to rows A and C.",
+    "span": "Training span calculation 30-10=20.",
+    "shifted-table": "The SAME rows and raw values with the shifted column filled.",
+    "normalized-table": "The SAME rows with normalized column filled.",
+    "saved-rule": "Persistent operation strip learned only from training: subtract 10, then divide by 20.",
+    "new-row": "Separate New row with x=25; training rows and saved-rule remain visible.",
+    "new-shifted": "New row shifted cell, 25-10=15.",
+    "new-output": "New row normalized cell, 15/20=0.75."
+  },
+  "initialKnown": [
+    "training-table"
+  ],
+  "results": {
+    "training-bounds": {
+      "statement": "Training minimum = 10; training maximum = 30.",
+      "conditions": [
+        "Computed only from training rows A, B, C."
+      ],
+      "scope": "example"
+    },
+    "training-span": {
+      "statement": "Training span = 30-10 = 20.",
+      "conditions": [
+        "Training maximum exceeds training minimum."
+      ],
+      "scope": "example"
+    },
+    "training-shift": {
+      "statement": "Subtracting 10 gives [0,10,20] for rows A,B,C.",
+      "conditions": [
+        "Same training rows in the same order; raw values remain visible."
+      ],
+      "scope": "example"
+    },
+    "training-normalized": {
+      "statement": "Dividing [0,10,20] by 20 gives [0,0.5,1].",
+      "conditions": [
+        "Positive training span 20."
+      ],
+      "scope": "example"
+    },
+    "fixed-rule": {
+      "keepVisibleDuringUse": true,
+      "statement": "For any value x, use y=(x-10)/(30-10)=(x-10)/20 with the established training parameters.",
+      "conditions": [
+        "Training parameters remain minimum=10, maximum=30; do not refit on new data.",
+        "For 10<=x<=30, 0<=y<=1; positive training span required. No clipping is introduced."
+      ],
+      "scope": "general"
+    },
+    "new-shift": {
+      "statement": "25-10=15.",
+      "conditions": [
+        "Use the saved training minimum 10."
+      ],
+      "scope": "example"
+    },
+    "new-normalized": {
+      "statement": "25 maps to 15/20=0.75 using the same established rule.",
+      "conditions": [
+        "Use the saved training span 20; training outputs remain [0,0.5,1].",
+        "25 lies within the training interval [10,30]."
+      ],
+      "scope": "example"
+    }
+  },
+  "branches": [],
+  "states": [
+    {
+      "id": "input",
+      "kind": "overview",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "training-table",
+      "objects": [
+        "training-table"
+      ],
+      "purpose": "Recognize the training values and the desired 0-to-1 scale.",
+      "why": "These are the data from which we must establish a reusable scale.",
+      "requires": [
+        "training-table"
+      ],
+      "produces": [],
+      "carries": [],
+      "operation": "Static entry: display A=10, B=20, C=30 and target interval [0,1]; output cells empty.",
+      "visibleResult": "Known input is visible; no normalization answers yet.",
+      "click": 0,
+      "hold": true
+    },
+    {
+      "id": "bounds",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "training-table",
+      "objects": [
+        "training-table",
+        "bounds"
+      ],
+      "purpose": "Select the two training endpoints.",
+      "why": "To map the smallest training value to 0 and the largest to 1, first locate them.",
+      "requires": [
+        "training-table"
+      ],
+      "produces": [
+        "bounds",
+        "training-bounds"
+      ],
+      "carries": [
+        "training-bounds"
+      ],
+      "operation": "Mark cells A=10 and C=30; attach min=10 and max=30 locally.",
+      "visibleResult": "Training endpoints 10 and 30.",
+      "click": 1,
+      "hold": true
+    },
+    {
+      "id": "span",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "bounds",
+      "objects": [
+        "training-table",
+        "bounds",
+        "span"
+      ],
+      "purpose": "Compute the distance between the training endpoints.",
+      "why": "This distance will become one whole unit on the new scale.",
+      "requires": [
+        "training-bounds"
+      ],
+      "produces": [
+        "span",
+        "training-span"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span"
+      ],
+      "operation": "Show 30-10=20 beside the selected endpoints.",
+      "visibleResult": "Training span 20, kept beside the table.",
+      "click": 2,
+      "hold": true
+    },
+    {
+      "id": "shift-training",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "training-table",
+      "objects": [
+        "training-table",
+        "bounds",
+        "span",
+        "shifted-table"
+      ],
+      "purpose": "Move the lower endpoint to zero.",
+      "why": "Subtracting the minimum makes 10 become 0 while preserving the row order.",
+      "requires": [
+        "training-table",
+        "training-bounds"
+      ],
+      "produces": [
+        "shifted-table",
+        "training-shift"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-shift"
+      ],
+      "operation": "Fill the SAME rows: 10-10=0; 20-10=10; 30-10=20. Keep raw column visible.",
+      "visibleResult": "Shifted column [0,10,20].",
+      "click": 3,
+      "hold": true
+    },
+    {
+      "id": "scale-training",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "shifted-table",
+      "objects": [
+        "training-table",
+        "bounds",
+        "span",
+        "shifted-table",
+        "normalized-table"
+      ],
+      "purpose": "Make the full training span equal one.",
+      "why": "The shifted maximum is 20, so dividing by 20 maps it to 1.",
+      "requires": [
+        "training-shift",
+        "training-span"
+      ],
+      "produces": [
+        "normalized-table",
+        "training-normalized"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-normalized"
+      ],
+      "operation": "Fill normalized cells from the shifted column: 0/20=0; 10/20=0.5; 20/20=1.",
+      "visibleResult": "Same training rows now map to [0,0.5,1].",
+      "click": 4,
+      "hold": true
+    },
+    {
+      "id": "save-rule",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "normalized-table",
+      "objects": [
+        "training-table",
+        "bounds",
+        "span",
+        "shifted-table",
+        "normalized-table",
+        "saved-rule"
+      ],
+      "purpose": "Retain the two established operations as a reusable rule.",
+      "why": "New rows must be measured on the same scale as the training rows.",
+      "requires": [
+        "training-bounds",
+        "training-span",
+        "training-shift",
+        "training-normalized"
+      ],
+      "produces": [
+        "saved-rule",
+        "fixed-rule"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-normalized",
+        "fixed-rule"
+      ],
+      "operation": "Replace only the row-specific input in the operation strip by x: y=(x-10)/(30-10)=(x-10)/20. Label 10 and 20 as fixed from training.",
+      "visibleResult": "Saved rule subtract 10, then divide by 20. Beside it: training span > 0; values within [10,30] map into [0,1].",
+      "click": 5,
+      "hold": true
+    },
+    {
+      "id": "new-input",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "new-row",
+      "objects": [
+        "training-table",
+        "normalized-table",
+        "saved-rule",
+        "new-row"
+      ],
+      "purpose": "Introduce a new value on the established scale.",
+      "why": "We can now process a value that was not used to set the scale.",
+      "requires": [
+        "normalized-table",
+        "saved-rule",
+        "fixed-rule"
+      ],
+      "produces": [
+        "new-row"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-normalized",
+        "fixed-rule"
+      ],
+      "operation": "Add a separate New row with raw value 25; its shifted and normalized cells are empty. Keep training outputs and saved rule visible.",
+      "visibleResult": "New input 25, same saved parameters.",
+      "click": 6,
+      "hold": true
+    },
+    {
+      "id": "shift-new",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "new-row",
+      "objects": [
+        "training-table",
+        "normalized-table",
+        "saved-rule",
+        "new-row",
+        "new-shifted"
+      ],
+      "purpose": "Apply the first saved operation to 25.",
+      "why": "A position relative to training minimum 10 is needed before dividing by the span.",
+      "requires": [
+        "new-row",
+        "fixed-rule"
+      ],
+      "produces": [
+        "new-shifted",
+        "new-shift"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-normalized",
+        "fixed-rule",
+        "new-shift"
+      ],
+      "operation": "Highlight the saved subtract-10 operation and fill the New row shifted cell with 25-10=15.",
+      "visibleResult": "New shifted value 15.",
+      "click": 7,
+      "hold": true
+    },
+    {
+      "id": "scale-new",
+      "kind": "main",
+      "scene": "one-persistent-table",
+      "context": "train-then-transform",
+      "activeObject": "new-shifted",
+      "objects": [
+        "training-table",
+        "normalized-table",
+        "saved-rule",
+        "new-row",
+        "new-shifted",
+        "new-output"
+      ],
+      "purpose": "Complete the new row using the saved span.",
+      "why": "Dividing by the SAME span 20 places 25 on the SAME 0-to-1 scale.",
+      "requires": [
+        "new-shift",
+        "fixed-rule",
+        "training-normalized"
+      ],
+      "produces": [
+        "new-output",
+        "new-normalized"
+      ],
+      "carries": [
+        "training-bounds",
+        "training-span",
+        "training-normalized",
+        "fixed-rule",
+        "new-normalized"
+      ],
+      "operation": "Highlight divide-by-20 and fill 15/20=0.75. Hold the completed table and rule together.",
+      "visibleResult": "Training: 10->0,20->0.5,30->1; New:25->0.75. The rule and training parameters are retained.",
+      "click": 8,
+      "hold": true
+    }
+  ],
+  "retainedConclusion": "Training parameters min=10,max=30,span=20 stay fixed; y=(x-10)/20; training [0,0.5,1]; new 25->0.75.",
+  "scopeBoundary": "The [0,1] guarantee covers the training interval. Values outside it and constant-column handling are not separate lesson topics here."
+}

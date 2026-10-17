@@ -1,0 +1,367 @@
+[
+  {
+    "slide": 5,
+    "stage": 0,
+    "id": "overview"
+  },
+  {
+    "slide": 5,
+    "stage": 1,
+    "id": "overview"
+  },
+  {
+    "slide": 5,
+    "stage": 2,
+    "id": "overview"
+  },
+  {
+    "slide": 6,
+    "stage": 0,
+    "id": "pam-form"
+  },
+  {
+    "slide": 6,
+    "stage": 1,
+    "id": "pam-form"
+  },
+  {
+    "slide": 6,
+    "stage": 2,
+    "id": "pam-form"
+  },
+  {
+    "slide": 6,
+    "stage": 3,
+    "id": "pam-form"
+  },
+  {
+    "slide": 7,
+    "stage": 0,
+    "id": "pam-derivation"
+  },
+  {
+    "slide": 7,
+    "stage": 1,
+    "id": "pam-derivation"
+  },
+  {
+    "slide": 7,
+    "stage": 2,
+    "id": "pam-derivation"
+  },
+  {
+    "slide": 7,
+    "stage": 3,
+    "id": "pam-derivation"
+  },
+  {
+    "slide": 7,
+    "stage": 4,
+    "id": "pam-derivation"
+  },
+  {
+    "slide": 8,
+    "stage": 0,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 8,
+    "stage": 1,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 8,
+    "stage": 2,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 8,
+    "stage": 3,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 8,
+    "stage": 4,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 8,
+    "stage": 5,
+    "id": "sampling-coefficients"
+  },
+  {
+    "slide": 9,
+    "stage": 0,
+    "id": "sampling-spectrum"
+  },
+  {
+    "slide": 9,
+    "stage": 1,
+    "id": "sampling-spectrum"
+  },
+  {
+    "slide": 9,
+    "stage": 2,
+    "id": "sampling-spectrum"
+  },
+  {
+    "slide": 9,
+    "stage": 3,
+    "id": "sampling-spectrum"
+  },
+  {
+    "slide": 9,
+    "stage": 4,
+    "id": "sampling-spectrum"
+  },
+  {
+    "slide": 10,
+    "stage": 0,
+    "id": "sampling-condition"
+  },
+  {
+    "slide": 10,
+    "stage": 1,
+    "id": "sampling-condition"
+  },
+  {
+    "slide": 10,
+    "stage": 2,
+    "id": "sampling-condition"
+  },
+  {
+    "slide": 10,
+    "stage": 3,
+    "id": "sampling-condition"
+  },
+  {
+    "slide": 10,
+    "stage": 4,
+    "id": "sampling-condition"
+  },
+  {
+    "slide": 11,
+    "stage": 0,
+    "id": "pulse-transform"
+  },
+  {
+    "slide": 11,
+    "stage": 1,
+    "id": "pulse-transform"
+  },
+  {
+    "slide": 11,
+    "stage": 2,
+    "id": "pulse-transform"
+  },
+  {
+    "slide": 11,
+    "stage": 3,
+    "id": "pulse-transform"
+  },
+  {
+    "slide": 11,
+    "stage": 4,
+    "id": "pulse-transform"
+  },
+  {
+    "slide": 12,
+    "stage": 0,
+    "id": "pam-spectrum"
+  },
+  {
+    "slide": 12,
+    "stage": 1,
+    "id": "pam-spectrum"
+  },
+  {
+    "slide": 12,
+    "stage": 2,
+    "id": "pam-spectrum"
+  },
+  {
+    "slide": 12,
+    "stage": 3,
+    "id": "pam-spectrum"
+  },
+  {
+    "slide": 13,
+    "stage": 0,
+    "id": "read-samples"
+  },
+  {
+    "slide": 13,
+    "stage": 1,
+    "id": "read-samples"
+  },
+  {
+    "slide": 13,
+    "stage": 2,
+    "id": "read-samples"
+  },
+  {
+    "slide": 13,
+    "stage": 3,
+    "id": "read-samples"
+  },
+  {
+    "slide": 14,
+    "stage": 0,
+    "id": "lpf"
+  },
+  {
+    "slide": 14,
+    "stage": 1,
+    "id": "lpf"
+  },
+  {
+    "slide": 14,
+    "stage": 2,
+    "id": "lpf"
+  },
+  {
+    "slide": 14,
+    "stage": 3,
+    "id": "lpf"
+  },
+  {
+    "slide": 15,
+    "stage": 0,
+    "id": "reconstruction-kernel"
+  },
+  {
+    "slide": 15,
+    "stage": 1,
+    "id": "reconstruction-kernel"
+  },
+  {
+    "slide": 15,
+    "stage": 2,
+    "id": "reconstruction-kernel"
+  },
+  {
+    "slide": 15,
+    "stage": 3,
+    "id": "reconstruction-kernel"
+  },
+  {
+    "slide": 15,
+    "stage": 4,
+    "id": "reconstruction-kernel"
+  },
+  {
+    "slide": 16,
+    "stage": 0,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 1,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 2,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 3,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 4,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 5,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 16,
+    "stage": 6,
+    "id": "interpolation-derivation"
+  },
+  {
+    "slide": 17,
+    "stage": 0,
+    "id": "interpolation"
+  },
+  {
+    "slide": 17,
+    "stage": 1,
+    "id": "interpolation"
+  },
+  {
+    "slide": 17,
+    "stage": 2,
+    "id": "interpolation"
+  },
+  {
+    "slide": 18,
+    "stage": 0,
+    "id": "tdm-send"
+  },
+  {
+    "slide": 18,
+    "stage": 1,
+    "id": "tdm-send"
+  },
+  {
+    "slide": 18,
+    "stage": 2,
+    "id": "tdm-send"
+  },
+  {
+    "slide": 18,
+    "stage": 3,
+    "id": "tdm-send"
+  },
+  {
+    "slide": 19,
+    "stage": 0,
+    "id": "tdm-receive"
+  },
+  {
+    "slide": 19,
+    "stage": 1,
+    "id": "tdm-receive"
+  },
+  {
+    "slide": 19,
+    "stage": 2,
+    "id": "tdm-receive"
+  },
+  {
+    "slide": 19,
+    "stage": 3,
+    "id": "tdm-receive"
+  },
+  {
+    "slide": 20,
+    "stage": 0,
+    "id": "recap"
+  },
+  {
+    "slide": 21,
+    "stage": 0,
+    "id": "review"
+  },
+  {
+    "slide": 21,
+    "stage": 1,
+    "id": "review"
+  },
+  {
+    "slide": 22,
+    "stage": 0,
+    "id": "closing"
+  },
+  {
+    "slide": 22,
+    "stage": 1,
+    "id": "closing"
+  }
+]

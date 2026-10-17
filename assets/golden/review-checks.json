@@ -1,0 +1,14 @@
+{
+  "candidateHash": "0485efe5245d38653c933a49be35a49ac3c80246f3446213e4748cc39cf2ea57",
+  "pages": 23,
+  "nativeClickAnimations": 13,
+  "clickEndpoints": 73,
+  "totalClicks": 56,
+  "note7DerivationStepsVerified": true,
+  "templateCopiesVerified": true,
+  "navigationTargetsVerified": true,
+  "nonblankEndpoints": true,
+  "modeledMotionFrames": 59,
+  "nativePlaybackTested": false,
+  "classroomTimingTested": false
+}

@@ -1,0 +1,3548 @@
+{
+  "mode": "modeled-click-playback",
+  "nativePlaybackTested": false,
+  "source": "C:\\Users\\10486\\Desktop\\Personal\\\u535a\u4e00\\ELEG2310B\\tmp\\tutorial_base\\tutorial3\\methods-work\\t5-note7-r1\\candidate.pptx",
+  "sourceSha256": "0485efe5245d38653c933a49be35a49ac3c80246f3446213e4748cc39cf2ea57",
+  "slideSizeEmu": [
+    12192000,
+    6858000
+  ],
+  "timesMs": [
+    0,
+    350,
+    700,
+    1050
+  ],
+  "limitations": [
+    "Linear position/scale interpolation and fade sampling from OOXML; native easing, frame scheduling and Morph are not reproduced.",
+    "Static images can inspect intermediate states but cannot certify native PowerPoint playback."
+  ],
+  "skipped": [],
+  "frames": [
+    {
+      "index": 1,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_1.xml",
+      "png": "timeline-07-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 2,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_2.xml",
+      "png": "timeline-07-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            4437311.0,
+            5374958,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_3.xml",
+      "png": "timeline-07-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            4437311.0,
+            5374958,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_4.xml",
+      "png": "timeline-07-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            4437311.0,
+            5374958,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_5.xml",
+      "png": "timeline-07-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            4437311.0,
+            5374958,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_6.xml",
+      "png": "timeline-07-2-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            4923086.0,
+            5272088,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_7.xml",
+      "png": "timeline-07-2-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            4923086.0,
+            5272088,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_8.xml",
+      "png": "timeline-07-2-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            4923086.0,
+            5272088,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_9.xml",
+      "png": "timeline-07-2-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            4923086.0,
+            5272088,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 3,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_10.xml",
+      "png": "timeline-07-3-0000.png",
+      "origins": [
+        {
+          "target": "math-flight-0",
+          "source": "math-flight-0-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            5457289.0,
+            5092065,
+            343972
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-0",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2404940.3436549995,
+            4953625.288655,
+            910315.22725,
+            257174.42192999998
+          ],
+          "scale": [
+            1.00529,
+            1.00467
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 3,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_11.xml",
+      "png": "timeline-07-3-0350.png",
+      "origins": [
+        {
+          "target": "math-flight-0",
+          "source": "math-flight-0-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            5457289.0,
+            5092065,
+            343972
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-0",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2064845.1718274998,
+            5220656.1443275,
+            907920.113625,
+            256576.710965
+          ],
+          "scale": [
+            1.002645,
+            1.002335
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 3,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_12.xml",
+      "png": "timeline-07-3-0700.png",
+      "origins": [
+        {
+          "target": "math-flight-0",
+          "source": "math-flight-0-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            5457289.0,
+            5092065,
+            343972
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-0",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            1724750.0,
+            5487687.0,
+            905525.0,
+            255979.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 3,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_13.xml",
+      "png": "timeline-07-3-1050.png",
+      "origins": [
+        {
+          "target": "math-flight-0",
+          "source": "math-flight-0-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            5457289.0,
+            5092065,
+            343972
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-0",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            1724750.0,
+            5487687.0,
+            905525.0,
+            255979.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 4,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_14.xml",
+      "png": "timeline-07-4-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "result-emphasis",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            6391275.0,
+            10563225,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-3",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            6008578.0,
+            3513773,
+            308193
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 4,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_15.xml",
+      "png": "timeline-07-4-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "result-emphasis",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            6391275.0,
+            10563225,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            6008578.0,
+            3513773,
+            308193
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 4,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_16.xml",
+      "png": "timeline-07-4-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "result-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            6391275.0,
+            10563225,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            6008578.0,
+            3513773,
+            308193
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "slide": 7,
+      "id": "pam-derivation",
+      "stage": 4,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_17.xml",
+      "png": "timeline-07-4-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "result-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            6391275.0,
+            10563225,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            6008578.0,
+            3513773,
+            308193
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_18.xml",
+      "png": "timeline-09-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 19,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_19.xml",
+      "png": "timeline-09-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "transform-definition",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            2739390.0,
+            4107180,
+            360045
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_20.xml",
+      "png": "timeline-09-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "transform-definition",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            2739390.0,
+            4107180,
+            360045
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_21.xml",
+      "png": "timeline-09-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "transform-definition",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            2739390.0,
+            4107180,
+            360045
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_22.xml",
+      "png": "timeline-09-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "transform-definition",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            2739390.0,
+            4107180,
+            360045
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_23.xml",
+      "png": "timeline-09-2-0000.png",
+      "origins": [
+        {
+          "target": "math-flight-1",
+          "source": "math-flight-1-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "replicas-result",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            3273475.0,
+            2834640,
+            396776
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-1",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            3407615.6687550005,
+            2744414.1560649998,
+            1458736.54953,
+            294734.64675
+          ],
+          "scale": [
+            0.97827,
+            0.99817
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_24.xml",
+      "png": "timeline-09-2-0350.png",
+      "origins": [
+        {
+          "target": "math-flight-1",
+          "source": "math-flight-1-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "replicas-result",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            3273475.0,
+            2834640,
+            396776
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-1",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2829928.8343775,
+            3026476.5780325,
+            1474937.774765,
+            295004.823375
+          ],
+          "scale": [
+            0.989135,
+            0.999085
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_25.xml",
+      "png": "timeline-09-2-0700.png",
+      "origins": [
+        {
+          "target": "math-flight-1",
+          "source": "math-flight-1-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "replicas-result",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            3273475.0,
+            2834640,
+            396776
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-1",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2252242.0,
+            3308539.0,
+            1491139.0,
+            295275.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_26.xml",
+      "png": "timeline-09-2-1050.png",
+      "origins": [
+        {
+          "target": "math-flight-1",
+          "source": "math-flight-1-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "replicas-result",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            3273475.0,
+            2834640,
+            396776
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-1",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            2252242.0,
+            3308539.0,
+            1491139.0,
+            295275.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 3,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_27.xml",
+      "png": "timeline-09-3-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "sampling-replicas--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 3,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_28.xml",
+      "png": "timeline-09-3-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "sampling-replicas--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 3,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_29.xml",
+      "png": "timeline-09-3-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "sampling-replicas--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-002",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 3,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_30.xml",
+      "png": "timeline-09-3-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "sampling-replicas--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-002",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-003",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-004",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "sampling-replicas--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            986790.0,
+            4048125.0,
+            10027920,
+            2238375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 4,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_31.xml",
+      "png": "timeline-09-4-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "spectral-takeaway",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            6343650.0,
+            10896600,
+            333375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 4,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_32.xml",
+      "png": "timeline-09-4-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "spectral-takeaway",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            6343650.0,
+            10896600,
+            333375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 4,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_33.xml",
+      "png": "timeline-09-4-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "spectral-takeaway",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6343650.0,
+            10896600,
+            333375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "slide": 9,
+      "id": "sampling-spectrum",
+      "stage": 4,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_34.xml",
+      "png": "timeline-09-4-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "spectral-takeaway",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6343650.0,
+            10896600,
+            333375
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_35.xml",
+      "png": "timeline-16-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 36,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_36.xml",
+      "png": "timeline-16-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            3246686.0,
+            4294823,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_37.xml",
+      "png": "timeline-16-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            3246686.0,
+            4294823,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_38.xml",
+      "png": "timeline-16-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            3246686.0,
+            4294823,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_39.xml",
+      "png": "timeline-16-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-0",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            3246686.0,
+            4294823,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_40.xml",
+      "png": "timeline-16-2-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            3751511.0,
+            5940743,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_41.xml",
+      "png": "timeline-16-2-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            3751511.0,
+            5940743,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_42.xml",
+      "png": "timeline-16-2-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            3751511.0,
+            5940743,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_43.xml",
+      "png": "timeline-16-2-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-1",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            3751511.0,
+            5940743,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 3,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_44.xml",
+      "png": "timeline-16-3-0000.png",
+      "origins": [
+        {
+          "target": "math-flight-2",
+          "source": "math-flight-2-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            4303961.0,
+            5760720,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-2",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            3664808.980185,
+            3782050.23231,
+            910498.1129099999,
+            257174.51429999998
+          ],
+          "scale": [
+            1.00277,
+            1.00195
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 3,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_45.xml",
+      "png": "timeline-16-3-0350.png",
+      "origins": [
+        {
+          "target": "math-flight-2",
+          "source": "math-flight-2-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            4303961.0,
+            5760720,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-2",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2873386.4900924996,
+            4058400.616155,
+            909240.556455,
+            256924.25715
+          ],
+          "scale": [
+            1.001385,
+            1.000975
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 3,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_46.xml",
+      "png": "timeline-16-3-0700.png",
+      "origins": [
+        {
+          "target": "math-flight-2",
+          "source": "math-flight-2-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            4303961.0,
+            5760720,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-2",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            2081964.0,
+            4334751.0,
+            907983.0,
+            256674.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 3,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_47.xml",
+      "png": "timeline-16-3-1050.png",
+      "origins": [
+        {
+          "target": "math-flight-2",
+          "source": "math-flight-2-origin"
+        }
+      ],
+      "objects": [
+        {
+          "name": "derivation-2",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            4303961.0,
+            5760720,
+            345579
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "math-flight-2",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            2081964.0,
+            4334751.0,
+            907983.0,
+            256674.0
+          ],
+          "scale": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 4,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_48.xml",
+      "png": "timeline-16-4-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-3",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            4894987.0,
+            3729038,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 4,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_49.xml",
+      "png": "timeline-16-4-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            4894987.0,
+            3729038,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 4,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_50.xml",
+      "png": "timeline-16-4-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            4894987.0,
+            3729038,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 4,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_51.xml",
+      "png": "timeline-16-4-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-3",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            4894987.0,
+            3729038,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 5,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_52.xml",
+      "png": "timeline-16-5-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-4",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            942975.0,
+            5447437.0,
+            4346258,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 5,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_53.xml",
+      "png": "timeline-16-5-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-4",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            942975.0,
+            5447437.0,
+            4346258,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 5,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_54.xml",
+      "png": "timeline-16-5-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-4",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            5447437.0,
+            4346258,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 5,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_55.xml",
+      "png": "timeline-16-5-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "derivation-4",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            942975.0,
+            5447437.0,
+            4346258,
+            268426
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 6,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_56.xml",
+      "png": "timeline-16-6-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "interpolation-emphasis",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            6638925.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-5",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            5911304.0,
+            5000625,
+            597991
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 6,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_57.xml",
+      "png": "timeline-16-6-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "interpolation-emphasis",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            6638925.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-5",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            5911304.0,
+            5000625,
+            597991
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 6,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_58.xml",
+      "png": "timeline-16-6-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "interpolation-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6638925.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-5",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5911304.0,
+            5000625,
+            597991
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "slide": 16,
+      "id": "interpolation-derivation",
+      "stage": 6,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_59.xml",
+      "png": "timeline-16-6-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "interpolation-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6638925.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "derivation-5",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5911304.0,
+            5000625,
+            597991
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

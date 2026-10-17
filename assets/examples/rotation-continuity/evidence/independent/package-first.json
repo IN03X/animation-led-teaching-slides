@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "candidate": "C:\\Users\\10486\\Desktop\\Personal\\\u535a\u4e00\\ELEG2310B\\tmp\\skill-e2e-validation\\cold-first\\candidate.pptx",
+  "sha256": "3117ca0fd93b3364d63b17343cd49de61c3a09db7fd711f1dd547185be103fc6",
+  "slides": 11,
+  "nativeClickGroups": 21,
+  "links": [
+    {
+      "page": 1,
+      "targetPage": 1
+    },
+    {
+      "page": 2,
+      "targetPage": 1
+    },
+    {
+      "page": 2,
+      "targetPage": 3
+    },
+    {
+      "page": 2,
+      "targetPage": 6
+    },
+    {
+      "page": 2,
+      "targetPage": 5
+    },
+    {
+      "page": 3,
+      "targetPage": 1
+    },
+    {
+      "page": 3,
+      "targetPage": 3
+    },
+    {
+      "page": 3,
+      "targetPage": 6
+    },
+    {
+      "page": 3,
+      "targetPage": 5
+    },
+    {
+      "page": 4,
+      "targetPage": 1
+    },
+    {
+      "page": 4,
+      "targetPage": 3
+    },
+    {
+      "page": 4,
+      "targetPage": 6
+    },
+    {
+      "page": 4,
+      "targetPage": 5
+    },
+    {
+      "page": 5,
+      "targetPage": 1
+    },
+    {
+      "page": 5,
+      "targetPage": 3
+    },
+    {
+      "page": 5,
+      "targetPage": 6
+    },
+    {
+      "page": 5,
+      "targetPage": 5
+    },
+    {
+      "page": 6,
+      "targetPage": 1
+    },
+    {
+      "page": 6,
+      "targetPage": 3
+    },
+    {
+      "page": 6,
+      "targetPage": 6
+    },
+    {
+      "page": 6,
+      "targetPage": 5
+    },
+    {
+      "page": 7,
+      "targetPage": 1
+    },
+    {
+      "page": 8,
+      "targetPage": 1
+    },
+    {
+      "page": 9,
+      "targetPage": 1
+    },
+    {
+      "page": 9,
+      "targetPage": 3
+    },
+    {
+      "page": 9,
+      "targetPage": 6
+    },
+    {
+      "page": 9,
+      "targetPage": 5
+    },
+    {
+      "page": 10,
+      "targetPage": 1
+    },
+    {
+      "page": 11,
+      "targetPage": 1
+    },
+    {
+      "page": 11,
+      "targetPage": 3
+    },
+    {
+      "page": 11,
+      "targetPage": 6
+    },
+    {
+      "page": 11,
+      "targetPage": 5
+    }
+  ],
+  "allSchemasAndTimingTargetsValid": true,
+  "courseIdentityLeak": false,
+  "relationshipsChecked": 322,
+  "pages": [
+    {
+      "page": 1,
+      "shapeCount": 26,
+      "nativeClickGroups": 1,
+      "pictureCount": 1,
+      "visibleText": "Rotate a point about a centre Turn around C, not around the origin x y 0 1 2 3 4 1 2 3 C=(2,1) P=(4,2) Keep C fixed. 90 degrees counterclockwise Keep the distance CP. Find the new coordinates of the same point."
+    },
+    {
+      "page": 2,
+      "shapeCount": 20,
+      "nativeClickGroups": 3,
+      "pictureCount": 6,
+      "visibleText": "Rotate a point about a centre Measure from C, turn, then put C back Subtract C Rotate about zero Add C Q is the arrow from C to P."
+    },
+    {
+      "page": 3,
+      "shapeCount": 47,
+      "nativeClickGroups": 2,
+      "pictureCount": 33,
+      "visibleText": "Rotate a point about a centre 1. Subtract the centre Subtract C Rotate about zero Add C"
+    },
+    {
+      "page": 4,
+      "shapeCount": 47,
+      "nativeClickGroups": 2,
+      "pictureCount": 33,
+      "visibleText": "Rotate a point about a centre 2. Turn the offset 90 degrees counterclockwise Subtract C Rotate about zero Add C"
+    },
+    {
+      "page": 5,
+      "shapeCount": 47,
+      "nativeClickGroups": 2,
+      "pictureCount": 33,
+      "visibleText": "Rotate a point about a centre 3. Add the same centre back Subtract C Rotate about zero Add C"
+    },
+    {
+      "page": 6,
+      "shapeCount": 21,
+      "nativeClickGroups": 0,
+      "pictureCount": 4,
+      "visibleText": "Rotate a point about a centre The same process, now with any angle Subtract C Rotate about zero Add C How do u and v determine U and V after a turn by theta? Inspect this rotation of the same offset Q. At 90 degrees: Q'=(-v,u), so the example gives P'=(1,3)."
+    },
+    {
+      "page": 7,
+      "shapeCount": 36,
+      "nativeClickGroups": 2,
+      "pictureCount": 31,
+      "visibleText": "Rotate a point about a centre Inside the rotation: follow the horizontal leg Q=(u,v) from subtracting C  ->  Rotate about zero  ->  Q'"
+    },
+    {
+      "page": 8,
+      "shapeCount": 37,
+      "nativeClickGroups": 3,
+      "pictureCount": 32,
+      "visibleText": "Rotate a point about a centre Inside the rotation: turn the other leg and join Same Q=(u,v): retain H and turn the remaining vertical leg."
+    },
+    {
+      "page": 9,
+      "shapeCount": 22,
+      "nativeClickGroups": 2,
+      "pictureCount": 6,
+      "visibleText": "Rotate a point about a centre Return: put the result into the same middle operation Subtract C Rotate about zero Add C Counterclockwise theta; u=x-a, v=y-b. Same centre C=(a,b). 90-degree check: (u,v) -> (-v,u); P=(4,2), C=(2,1) -> P'=(1,3)."
+    },
+    {
+      "page": 10,
+      "shapeCount": 37,
+      "nativeClickGroups": 3,
+      "pictureCount": 33,
+      "visibleText": "Rotate a point about a centre Use it: the same P and C, now 30 degrees"
+    },
+    {
+      "page": 11,
+      "shapeCount": 22,
+      "nativeClickGroups": 1,
+      "pictureCount": 6,
+      "visibleText": "Rotate a point about a centre Subtract the centre. Turn the offset. Add it back. Subtract C Rotate about zero Add C Equal axis scales. Positive theta: counterclockwise; negative: clockwise. Checks: C stays fixed; distance to C stays fixed; zero turn gives P."
+    }
+  ],
+  "nativePowerPointTested": false,
+  "claimBoundary": "Actual packaged slide/schema/target/visible-text audit; not mathematics, visual teaching quality or native playback."
+}

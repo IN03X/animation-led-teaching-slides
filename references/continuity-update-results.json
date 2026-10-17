@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-18",
+  "scope": "Guidance revision, corrected case archive, planning regressions and cold-context storyboard transfer; not a new PPT build",
+  "skillStructuralValidation": "Skill is valid!",
+  "planningRegressionTests": {
+    "passed": true,
+    "count": 16,
+    "output": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.002s\n\nOK"
+  },
+  "correctedCase": {
+    "passed": true,
+    "deckSha256": "1c92bd228b2ca57cb13e7492e842ee7df52b966865c8661b894af13984ebb3e8",
+    "slides": 116,
+    "referenceImages": 16,
+    "clickStartZooms": 62,
+    "requiresOriginalProject": false,
+    "readOnly": true,
+    "pixelIdenticalSceneBoundaryPairs": 6,
+    "nativePowerPointTested": false,
+    "claimBoundary": "Archived identity, six scene boundaries and declared click gates only; not native navigation or teaching approval."
+  },
+  "independentColdContextForwardTest": {
+    "agent": "01a14ae1-16f7-7473-9933-3f924841a078",
+    "contextForked": false,
+    "originalProjectRead": false,
+    "topic": "Min-max normalization and reuse of the training rule",
+    "states": 9,
+    "branches": 0,
+    "trainingInput": [
+      10,
+      20,
+      30
+    ],
+    "trainingOutput": [
+      0,
+      0.5,
+      1
+    ],
+    "newInput": 25,
+    "newOutput": 0.75,
+    "noForcedCommunicationNotationOrBranches": true,
+    "planningCheckerPassed": true,
+    "artifacts": "assets/examples/normalization-plan",
+    "newPptBuilt": false,
+    "nativePlaybackTested": false
+  },
+  "independentFindingsHandled": [
+    {
+      "issue": "Stale archive inventory while maintenance was underway",
+      "resolution": "Regenerate inventory after final evidence; verify all hashes and preserve older immutable assets"
+    },
+    {
+      "issue": "Focus identity contradiction accepted",
+      "resolution": "Active focus must match branch origin and any declared visible object set; negative tests now reject"
+    },
+    {
+      "issue": "Key rule disappears during mainline reuse",
+      "resolution": "Explicit keepVisibleDuringUse flag enforces visibility without requiring all historical formulas; positive/negative tests pass"
+    },
+    {
+      "issue": "Label collisions in three archived zoom middle frames",
+      "resolution": "Retain authentic source; explicitly label 02/04/06 as negative specimens with repair/review instructions, not positive layout goldens"
+    }
+  ],
+  "finalPositivePlanningCheck": {
+    "passed": true,
+    "states": 9,
+    "branches": 0,
+    "findings": [],
+    "claimBoundary": "Planning graph only. Does not certify visible continuity, mathematics, animation or native playback."
+  },
+  "finalFocusNegativeProbe": {
+    "passed": false,
+    "states": 8,
+    "branches": 2,
+    "findings": [
+      {
+        "state": "sampling-focus",
+        "message": "Focus active object differs from the declared originating object"
+      }
+    ],
+    "claimBoundary": "Planning graph only. Does not certify visible continuity, mathematics, animation or native playback."
+  },
+  "finalKeyRuleNegativeProbe": {
+    "passed": false,
+    "states": 9,
+    "branches": 0,
+    "findings": [
+      {
+        "state": "new-input",
+        "message": "A key rule marked keepVisibleDuringUse is absent from this operation: fixed-rule"
+      },
+      {
+        "state": "shift-new",
+        "message": "A key rule marked keepVisibleDuringUse is absent from this operation: fixed-rule"
+      },
+      {
+        "state": "scale-new",
+        "message": "A key rule marked keepVisibleDuringUse is absent from this operation: fixed-rule"
+      }
+    ],
+    "claimBoundary": "Planning graph only. Does not certify visible continuity, mathematics, animation or native playback."
+  },
+  "limits": {
+    "old23SlideGoldenReplayRerun": false,
+    "newDeckBuiltOrRendered": false,
+    "nativePowerPointTested": false,
+    "classroomTimingTested": false,
+    "allLater116PagesTeachingApproved": false,
+    "planningPassNotVisibleTeachingApproval": true,
+    "sourcePptsModified": false,
+    "globalEnvironmentChanged": false,
+    "knownArchivedMidframeCollisionsFixedInOriginalPpt": false
+  },
+  "integrityProcedure": "archive.py inventory checks old immutable assets before generating archive-index.json; workflow.py verify checks final indexed content. Inventory excludes itself.",
+  "checkedCodeSha256": {
+    "story-map.py": "00342e3460a2064e79512578629d0ad213245809325998162a366441c3caa6ae",
+    "story-map-tests.py": "c1b85ab6168529de8b5a8101d4fdcaaea189993266fe4a5c8a2e29b8451716cc",
+    "continuity-case-check.py": "b6dcc71f4c7ece3b6000a13e79b491d788eab3c2693956a481f20fbb7082b4f8"
+  }
+}

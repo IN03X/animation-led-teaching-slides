@@ -1,0 +1,42 @@
+{
+  "initialVerify": {
+    "verifiedFiles": 1234,
+    "bytes": 230965430,
+    "allSha256Match": true
+  },
+  "finalVerifyPassed": false,
+  "finalMismatches": [
+    {
+      "path": "references/acceptance.md",
+      "expected": "cfcd9c957e4fad2f4d960a3f14060d96dda12e66917b7881d9e8f87ddf51fe34",
+      "observed": "c31d4d06fde7261fc75a707c61954ad92a99bb87b7f4a0b58cb17384276287d2"
+    },
+    {
+      "path": "references/failure-cases.md",
+      "expected": "4be33866dfe28b5b43bbaa26427c8c4be539ac18684aaa188966ecde3a01ef0a",
+      "observed": "a904f763f0630707ac51bbd75db55e8b876c294493328c7f6044a89e8754c286"
+    },
+    {
+      "path": "references/implementation.md",
+      "expected": "73e6019e72f34ea9bcacbb994d10ad99c2d855e282720d11aa8e598843a95b54",
+      "observed": "bb9da5c10ca75e24acec66d872be4a68de817c567c9b72b6f511b7401f325cc8"
+    },
+    {
+      "path": "references/mainline-branches.md",
+      "expected": "b248f2c29233bcb4066fe26abb66f1ead90960bf81ad40ebc0ae1e2e86d223d7",
+      "observed": "453936bc6dfb37e9861c04516fea35c3bc583a4afde11d89c1bca98d19b3763b"
+    },
+    {
+      "path": "references/test-results.json",
+      "expected": "a6716e69476d2d66f4b6afb748e96a8b36d6cf814ecfbed8c732f44b7fd701e1",
+      "observed": "ee28b5f5088e388147b7a85ec259f15226376194ef05e3f55bdca1e587c56255"
+    },
+    {
+      "path": "SKILL.md",
+      "expected": "6fa645e2561ebf525e2bf63ee3b0755d72fc10901acfaf57d02b9cf134c9ff31",
+      "observed": "5e153c640be1f8e76d4fbb977c16dcf3c8f8c40dad2439b3b3f4de41b103e0b6"
+    }
+  ],
+  "installedFilesEditedByThisRun": false,
+  "workaround": "Freeze actual author sources and staged engine hashes; retain exact verification failure; do not alter installed archive."
+}

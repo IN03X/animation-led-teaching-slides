@@ -1,0 +1,96 @@
+{
+  "test": "Independent zero-context moving-average forward test",
+  "date": "2026-10-15",
+  "status": "Completed; native playback unverified",
+  "workspace": "C:/Users/10486/.codex/tmp/teaching-skill-forward-ma-20261015",
+  "files": {
+    "candidate": "C:/Users/10486/.codex/tmp/teaching-skill-forward-ma-20261015/candidate.pptx",
+    "preview": "C:/Users/10486/.codex/tmp/teaching-skill-forward-ma-20261015/overview.png",
+    "story": "lesson-story.mjs",
+    "demos": "lesson-demos.mjs",
+    "sourceLedgerAndPageContracts": "page-contract.json",
+    "independentNumericalChecker": "topic-check.py",
+    "finalRun": "tmp/tutorial_base/tutorial3/methods-work/ma-r3",
+    "reviewImages": "tmp/tutorial_base/tutorial3/methods-work/ma-r3/quality-review",
+    "numericalEvidence": "tmp/tutorial_base/tutorial3/methods-work/ma-r3/topic-check.json",
+    "packageEvidence": "tmp/tutorial_base/tutorial3/methods-work/ma-r3/package-check.json",
+    "validationReceipt": "tmp/tutorial_base/tutorial3/methods-work/ma-r3/validation-0e389654180e.json"
+  },
+  "candidateSha256": "0e389654180e4aadb7ea0971e2addd7352240ff5268cdb466ca20ad5fe087642",
+  "candidateBytes": 1457855,
+  "scope": {
+    "slides": 6,
+    "language": "English",
+    "input": [0, 2, 4, 2, 0],
+    "previousInput": 0,
+    "outputIndices": [0, 1, 2, 3, 4],
+    "output": [0, 1, 3, 3, 1],
+    "futureInputsAssumed": false,
+    "estimatedNarrationMinutes": 5.1,
+    "timedRehearsal": false
+  },
+  "workflow": {
+    "usedSkillStageBuildReview": true,
+    "buildIterations": ["ma-r1", "ma-r2", "ma-r3"],
+    "finalReviewIncludesAllSixPages": true,
+    "actualPackagedDeckReimported": true,
+    "goldenImagesOpened": ["overview.png", "slide-006.png", "slide-009.png", "slide-016.png", "slide-019.png", "sequence-16.png"],
+    "templateAncestry": "Actual archived template master/layout imported in generic mode; Times New Roman, white/black/gray, upright bold TeX, fixed process route, prominent final results.",
+    "originalProjectOrPriorThreadsRead": false,
+    "skillEditedByThisTask": false,
+    "powerPointAutomationUsed": false,
+    "dependenciesInstalled": false,
+    "deletionsPerformedByThisTask": false
+  },
+  "checks": {
+    "existingRuntimeAndTexDoctor": "pass",
+    "packageIntegrity": "pass, zero findings",
+    "layoutAndFontPolicy": "pass, zero findings; native font rendering not tested",
+    "nativeEditableTable": "one table, five complete arithmetic rows, verified directly from candidate XML",
+    "independentTopicChecks": "10 passed: exact arithmetic, generated rows, packaged table, scope/identity, navigation, equations, pair interpolation, retained outputs, actual raster point coordinates",
+    "animationBackendSelfTests": "17 passed",
+    "nativeFrameAudit": "pass: 70 embedded PNG frames, 212 modeled frame samples, two animated slide schemas valid, frame pixels and relationships checked",
+    "clicksPerSlide": [0, 2, 2, 2, 0, 0],
+    "animationDurationsMs": {"pair-to-output": 5920, "moving-window": 10960},
+    "playbackStructure": "Static entry; one click starts each demonstration; no loop; final state holds; numerical equation/vector appears on a separate click",
+    "renderedAndInspected": {"finalPages": 6, "clickEndpoints": 12, "modeledTimelineImages": 30, "demoStrips": 2},
+    "intermediateReview": "Inspected pair transfer, height convergence, moving-window transition and accumulated-output states. Final-run first/middle/last strips and full-size critical frames rechecked after spacing repairs.",
+    "timelineSamplingBoundary": "Default page timeline images sample 0/350/700/1050 ms per click. Later demonstration states were reviewed from actual PNG frames; the independent native-frame audit samples every boundary.",
+    "navigation": "All six title links return to slide 1, the input overview",
+    "courseIdentityLeakage": "No original course names, addresses or communications labels found in visible slide text"
+  },
+  "pageReviewEvidence": [
+    {"slide": 1, "observed": "Six indexed stems include the supplied x[-1]=0; five requested samples and input-operation-output route are readable."},
+    {"slide": 2, "observed": "Selected input heights 2 and 4 remain visible; copied heights meet at output index 2, height 3; complete arithmetic is retained after the next click."},
+    {"slide": 3, "observed": "Current and previous inputs are defined beside their symbols; the complete general rule appears before the final statement."},
+    {"slide": 4, "observed": "Outline moves over overlapping pairs; old outline is faint; all earlier outputs persist; the five-output vector holds."},
+    {"slide": 5, "observed": "Problem statement, every substitution and all five results remain together in a readable native table."},
+    {"slide": 6, "observed": "Same process route, dominant rule, one-index advancement, starting-value condition and compact example close the lesson."}
+  ],
+  "observedIssues": [
+    {"state": "ma-r1, slide 2", "issue": "Selected value 4 was too close to its caption", "resolution": "Lowered chart marks and rescaled the value axis; rerendered in ma-r2 and ma-r3", "status": "resolved"},
+    {"state": "ma-r2, slides 2 and 4", "issue": "Selection outline touched the top of the selected 4 label", "resolution": "Raised the outline top while keeping its lower edge fixed; inspected final-run images and intermediate frames", "status": "resolved"},
+    {"state": "skill reference read", "issue": "Optional references/test-results.json was absent when first consulted", "impact": "No earlier restoration claims relied upon", "status": "nonblocking"},
+    {"state": "archive integrity checks", "issue": "Inventory changed from 1092 files / 131576026 bytes initially to 1097 files / 131707777 bytes finally; both verify calls passed", "impact": "This task performed no skill writes. Cause is unknown; whole-archive start/end byte identity cannot be claimed. The staged approved TTR5 deck hash remains the documented a2f7aa9f0e469b9a0f32669b3901b43c376cf5a9f55e4f9bb04bbf0742405c5b.", "status": "recorded"}
+  ],
+  "zeroContextUsability": {
+    "restorationSucceededWithoutOriginalProject": true,
+    "difficulties": [
+      "Concrete authoring required reading t4-build.mjs and t5-demos.mjs to resolve helper signatures, timing metadata and layout conventions.",
+      "Generic lessons must supply navigation aliases and bare pages to avoid inherited communications routes.",
+      "Legacy field names such as gifs and validated filenames beginning T5 still refer to native PNG sequences and the reused engine, not the lesson subject.",
+      "Package arithmetic validation skipped this table because it has no bottom total; the topic-specific checker therefore verified every actual XML table row independently."
+    ]
+  },
+  "nativePlaybackLimitations": [
+    "PowerPoint was not opened or automated, as requested. XML/schema/model/raster checks do not prove native playback.",
+    "Actual click scheduling, font rendering, early Next, backward navigation and revisiting a slide remain untested in Windows PowerPoint Slide Show.",
+    "Animations must be enabled. Static editors or viewers may display stacked final layers. There is no dedicated replay trigger.",
+    "Text, process shapes and the worked table are native editable objects; TeX is outlined and animation diagrams are PNG frame layers, with editable authoring modules supplied."
+  ],
+  "unresolvedVisualOrNumericalBlockersObserved": [],
+  "nativePlaybackTested": false,
+  "classroomTimingTested": false,
+  "teachingApproved": false,
+  "approvalBoundary": "Agent visual and source-specific checks completed. Validators do not establish teaching approval or student understanding."
+}

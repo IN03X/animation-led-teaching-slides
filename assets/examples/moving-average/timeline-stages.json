@@ -1,0 +1,4877 @@
+{
+  "mode": "modeled-click-playback",
+  "nativePlaybackTested": false,
+  "source": "C:\\Users\\10486\\.codex\\tmp\\teaching-skill-forward-ma-20261015\\tmp\\tutorial_base\\tutorial3\\methods-work\\ma-r3\\candidate.pptx",
+  "sourceSha256": "0e389654180e4aadb7ea0971e2addd7352240ff5268cdb466ca20ad5fe087642",
+  "slideSizeEmu": [
+    12192000,
+    6858000
+  ],
+  "timesMs": [
+    0,
+    350,
+    700,
+    1050
+  ],
+  "limitations": [
+    "Linear position/scale interpolation and fade sampling from OOXML; native easing, frame scheduling and Morph are not reproduced.",
+    "Static images can inspect intermediate states but cannot certify native PowerPoint playback."
+  ],
+  "skipped": [],
+  "frames": [
+    {
+      "index": 1,
+      "slide": 1,
+      "id": "overview",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_1.xml",
+      "png": "timeline-01-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 2,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_2.xml",
+      "png": "timeline-02-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 3,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_3.xml",
+      "png": "timeline-02-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "pair-to-output--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_4.xml",
+      "png": "timeline-02-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "pair-to-output--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_5.xml",
+      "png": "timeline-02-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "pair-to-output--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-002",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_6.xml",
+      "png": "timeline-02-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "pair-to-output--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-002",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-003",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-004",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "pair-to-output--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            2943225.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_7.xml",
+      "png": "timeline-02-2-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "one-pair-answer-emphasis",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            6429375.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "one-pair-answer",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            5878711.0,
+            2433638,
+            425053
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_8.xml",
+      "png": "timeline-02-2-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "one-pair-answer-emphasis",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            6429375.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "one-pair-answer",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            5878711.0,
+            2433638,
+            425053
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_9.xml",
+      "png": "timeline-02-2-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "one-pair-answer-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6429375.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "one-pair-answer",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5878711.0,
+            2433638,
+            425053
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "slide": 2,
+      "id": "one-pair",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_10.xml",
+      "png": "timeline-02-2-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "one-pair-answer-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6429375.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "one-pair-answer",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5878711.0,
+            2433638,
+            425053
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "slide": 3,
+      "id": "rule",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_11.xml",
+      "png": "timeline-03-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 12,
+      "slide": 3,
+      "id": "rule",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_12.xml",
+      "png": "timeline-03-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "general-rule",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            4714339.0,
+            3120390,
+            515422
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "slide": 3,
+      "id": "rule",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_13.xml",
+      "png": "timeline-03-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "general-rule",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            4714339.0,
+            3120390,
+            515422
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "slide": 3,
+      "id": "rule",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_14.xml",
+      "png": "timeline-03-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "general-rule",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            4714339.0,
+            3120390,
+            515422
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "slide": 3,
+      "id": "rule",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_15.xml",
+      "png": "timeline-03-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "general-rule",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            4714339.0,
+            3120390,
+            515422
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "slide": 3,
+      "id": "rule",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_16.xml",
+      "png": "timeline-03-2-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "rule-takeaway",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            5943600.0,
+            10896600,
+            409575
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "rule-emphasis",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            6467475.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "slide": 3,
+      "id": "rule",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_17.xml",
+      "png": "timeline-03-2-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "rule-takeaway",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            5943600.0,
+            10896600,
+            409575
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "rule-emphasis",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            6467475.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "slide": 3,
+      "id": "rule",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_18.xml",
+      "png": "timeline-03-2-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "rule-takeaway",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5943600.0,
+            10896600,
+            409575
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "rule-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6467475.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "slide": 3,
+      "id": "rule",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_19.xml",
+      "png": "timeline-03-2-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "rule-takeaway",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5943600.0,
+            10896600,
+            409575
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "rule-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6467475.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_20.xml",
+      "png": "timeline-04-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 21,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 1,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_21.xml",
+      "png": "timeline-04-1-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "moving-window--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-029",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-030",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-031",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-032",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-033",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-034",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-035",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-036",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-037",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-038",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-039",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-040",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 1,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_22.xml",
+      "png": "timeline-04-1-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "moving-window--t4-click-frame-001",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-029",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-030",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-031",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-032",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-033",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-034",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-035",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-036",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-037",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-038",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-039",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-040",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 1,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_23.xml",
+      "png": "timeline-04-1-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "moving-window--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-002",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-003",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-029",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-030",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-031",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-032",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-033",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-034",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-035",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-036",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-037",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-038",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-039",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-040",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 1,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_24.xml",
+      "png": "timeline-04-1-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "moving-window--t4-click-frame-001",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-002",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-003",
+          "visible": true,
+          "opacity": 1.0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-004",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-005",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-006",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-007",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-008",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-009",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-010",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-011",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-012",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-013",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-014",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-015",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-016",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-017",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-018",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-019",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-020",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-021",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-022",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-023",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-024",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-025",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-026",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-027",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-028",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-029",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-030",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-031",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-032",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-033",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-034",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-035",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-036",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-037",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-038",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-039",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "moving-window--t4-click-frame-040",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            666750.0,
+            3133725.0,
+            10668000,
+            2381250
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 2,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_25.xml",
+      "png": "timeline-04-2-0000.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "all-outputs-emphasis",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            6486525.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "all-outputs",
+          "visible": false,
+          "opacity": 0,
+          "boundsEmu": [
+            609600.0,
+            5982742.0,
+            3367088,
+            331291
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 2,
+      "timeMs": 350,
+      "part": "ppt/slides/t4_timeline_26.xml",
+      "png": "timeline-04-2-0350.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "all-outputs-emphasis",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            6486525.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "all-outputs",
+          "visible": true,
+          "opacity": 0.875,
+          "boundsEmu": [
+            609600.0,
+            5982742.0,
+            3367088,
+            331291
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 2,
+      "timeMs": 700,
+      "part": "ppt/slides/t4_timeline_27.xml",
+      "png": "timeline-04-2-0700.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "all-outputs-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6486525.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "all-outputs",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5982742.0,
+            3367088,
+            331291
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "slide": 4,
+      "id": "moving-pair",
+      "stage": 2,
+      "timeMs": 1050,
+      "part": "ppt/slides/t4_timeline_28.xml",
+      "png": "timeline-04-2-1050.png",
+      "origins": [],
+      "objects": [
+        {
+          "name": "all-outputs-emphasis",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            6486525.0,
+            10896600,
+            11430
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "name": "all-outputs",
+          "visible": true,
+          "opacity": 1,
+          "boundsEmu": [
+            609600.0,
+            5982742.0,
+            3367088,
+            331291
+          ],
+          "scale": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "slide": 5,
+      "id": "worked-example",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_29.xml",
+      "png": "timeline-05-0-0000.png",
+      "origins": [],
+      "objects": []
+    },
+    {
+      "index": 30,
+      "slide": 6,
+      "id": "takeaway",
+      "stage": 0,
+      "timeMs": 0,
+      "part": "ppt/slides/t4_timeline_30.xml",
+      "png": "timeline-06-0-0000.png",
+      "origins": [],
+      "objects": []
+    }
+  ]
+}

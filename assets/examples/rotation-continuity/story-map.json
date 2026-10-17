@@ -1,0 +1,28 @@
+{
+  "lesson":"Rotate the same point about the same centre, then generalize the angle",
+  "objects":{"P":"Point P","C":"Fixed centre C","Q":"Displacement from C","rotate":"The rotation operation on Q","Qprime":"Rotated displacement","Pprime":"Output point"},
+  "initialKnown":["P","C"],
+  "results":{
+    "shift":{"statement":"Q=P-C=(2,1)","conditions":["P=(4,2), C=(2,1)"],"scope":"example"},
+    "quarter":{"statement":"(u,v) becomes (-v,u)","conditions":["90 degrees counterclockwise"],"scope":"general"},
+    "answer90":{"statement":"P'=(1,3)","conditions":["The given example, counterclockwise 90 degrees"],"scope":"example"},
+    "rotation-rule":{"statement":"(U,V)=(u cos(theta)-v sin(theta),u sin(theta)+v cos(theta))","conditions":["Counterclockwise signed angle; Cartesian axes with equal scale"],"scope":"general","keepVisibleDuringUse":true},
+    "general-output":{"statement":"P'=C+Q'","conditions":["Q=P-C; same centre C throughout"],"scope":"general"},
+    "answer30":{"statement":"P'=(3/2+sqrt(3),2+sqrt(3)/2)","conditions":["Same P,C; angle now 30 degrees counterclockwise"],"scope":"example"}
+  },
+  "branches":[{"id":"components","originState":"need-rule","focusObject":"rotate","result":"rotation-rule","returnState":"return-rule"}],
+  "states":[
+    {"id":"overview","kind":"overview","scene":"rotation-task","context":"point-about-centre","activeObject":"P","objects":["P","C"],"purpose":"Identify the actual rotation centre","why":"Origin and centre differ","requires":["P","C"],"produces":[],"carries":[]},
+    {"id":"process","kind":"main","scene":"rotation-task","context":"point-about-centre","activeObject":"P","purpose":"Animate P,C through subtract, turn, add; then record each observed output","why":"Establish the actual full process before inspecting its operations","requires":["P","C"],"produces":["rotate","Q","Qprime","Pprime","shift","answer90"],"carries":["shift","answer90"],"demo":"process","slide":2,"frames":85},
+    {"id":"subtract","kind":"main","scene":"rotation-task","context":"point-about-centre","activeObject":"Q","purpose":"Reproduce the observed subtraction with coordinate arithmetic","why":"Explain how placing C at zero creates the offset","requires":["P","C","Q","shift"],"produces":[],"carries":["shift"],"demo":"subtract","slide":3},
+    {"id":"quarter-turn","kind":"main","scene":"rotation-task","context":"point-about-centre","activeObject":"rotate","purpose":"Justify the observed quarter turn by turning both coordinate legs","why":"Obtain the reusable (-v,u) rule","requires":["Q","Qprime","shift"],"produces":["quarter"],"carries":["shift","quarter"],"demo":"quarter","slide":4},
+    {"id":"add-back","kind":"main","scene":"rotation-task","context":"point-about-centre","activeObject":"Pprime","purpose":"Reproduce the fixed-centre addition with arithmetic","why":"Return the observed turned offset to world coordinates","requires":["C","Qprime","quarter","answer90"],"produces":[],"carries":["shift","quarter","answer90"],"demo":"add","slide":5},
+    {"id":"need-rule","kind":"overview","scene":"general-process","context":"same-point-any-angle","activeObject":"rotate","objects":["P","C","Q","rotate","Qprime","Pprime"],"purpose":"Select the unresolved rotation at an arbitrary angle","why":"The quarter-turn shortcut does not give other angles","requires":["answer90","quarter"],"produces":[],"carries":["answer90","quarter"]},
+    {"id":"focus-offset","kind":"focus","branch":"components","scene":"general-process","context":"same-point-any-angle","activeObject":"rotate","purpose":"Continuously isolate the SAME Q and build its two coordinate legs","why":"The unresolved angle requires both contributions","requires":["Q","rotate"],"produces":[],"carries":["answer90","quarter"],"demo":"focus","slide":6,"endpointIdentity":"horizontal:first.png at x70 y300 w1120 h260"},
+    {"id":"horizontal","kind":"derive","branch":"components","scene":"general-process","context":"same-point-any-angle","activeObject":"rotate","purpose":"Project the rotated horizontal leg","why":"Obtain the first contribution to Qprime","requires":["Q","rotate"],"produces":[],"carries":["answer90","quarter"],"demo":"horizontal","slide":7},
+    {"id":"vertical","kind":"derive","branch":"components","scene":"general-process","context":"same-point-any-angle","activeObject":"rotate","purpose":"Turn the perpendicular leg and add the contributions","why":"Both original coordinates must contribute","requires":["Q","quarter"],"produces":["rotation-rule"],"carries":["answer90","quarter","rotation-rule"]},
+    {"id":"return-rule","kind":"return","branch":"components","scene":"general-process","context":"same-point-any-angle","activeObject":"rotate","objects":["P","C","Q","rotate","Qprime","Pprime"],"purpose":"Attach the derived rule to the same rotation operation","why":"Complete the subtract-rotate-add process","requires":["rotation-rule"],"produces":["general-output"],"carries":["answer90","quarter","rotation-rule","general-output"]},
+    {"id":"use-rule","kind":"main","scene":"general-process","context":"same-point-any-angle","activeObject":"Pprime","purpose":"Use the returned rule at 30 degrees","why":"Demonstrate a non-quarter-turn calculation","requires":["rotation-rule","general-output","Q","C"],"produces":["answer30"],"carries":["rotation-rule","general-output","answer30"]},
+    {"id":"takeaway","kind":"main","scene":"general-process","context":"same-point-any-angle","activeObject":"Pprime","purpose":"Keep the full rule and verify the centre and radius","why":"Recognize a rotation and avoid wrong-centre answers","requires":["rotation-rule","general-output","answer90"],"produces":[],"carries":["rotation-rule","general-output","answer90"]}
+  ]
+}

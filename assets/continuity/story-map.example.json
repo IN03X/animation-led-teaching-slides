@@ -1,0 +1,24 @@
+{
+  "lesson": "Find the spectrum of the already constructed pulse signal",
+  "objects": {"s":"Known pulse signal s(t)","samples":"The sample stream m_delta(t)","pulse":"Known pulse h(t)","Sf":"Spectrum S(f) of that same transmitted signal","product":"Established transform relation S(f)=M_delta(f)H(f)"},
+  "initialKnown": ["s","samples","pulse","Sf","product"],
+  "results": {
+    "sample-copies":{"statement":"M_delta(f)=(1/Ts) sum_k M(f-k fs)","conditions":["Ideal uniform sampling; fs=1/Ts"],"scope":"general"},
+    "pulse-response":{"statement":"H(f)=T exp(-j pi f T) sinc(f T)","conditions":["Unit causal pulse on 0<t<T; normalized sinc"],"scope":"general"},
+    "complete-spectrum":{"statement":"S is the product of the established sample spectrum and pulse response","conditions":["Retain complex pulse phase and sampling gain"],"scope":"general"}
+  },
+  "branches": [
+    {"id":"sampling","originState":"product-map","focusObject":"samples","result":"sample-copies","returnState":"sampling-back"},
+    {"id":"pulse-transform","originState":"sampling-back","focusObject":"pulse","result":"pulse-response","returnState":"pulse-back"}
+  ],
+  "states": [
+    {"id":"product-map","kind":"overview","scene":"same-signal-product","context":"inspect-s","activeObject":"Sf","objects":["s","samples","pulse","Sf","product"],"purpose":"Build frequency views from the known time-domain objects","why":"The product is known but its two factors still need values","requires":["s","samples","pulse","product"],"produces":[],"carries":[]},
+    {"id":"sampling-focus","kind":"focus","branch":"sampling","scene":"same-signal-product","context":"inspect-s","activeObject":"samples","purpose":"Inspect the known sampling operation","why":"We need the first factor of the product","requires":["samples","product"],"produces":[],"carries":[]},
+    {"id":"sampling-copies","kind":"derive","branch":"sampling","scene":"same-signal-product","context":"inspect-s","activeObject":"samples","purpose":"Shift and add spectral copies, with the corresponding derivation adjacent","why":"Compute the first factor rather than introduce a disconnected identity","requires":["samples"],"produces":["sample-copies"],"carries":[]},
+    {"id":"sampling-back","kind":"return","branch":"sampling","scene":"same-signal-product","context":"inspect-s","activeObject":"Sf","objects":["s","samples","pulse","Sf","product"],"purpose":"Fill the sample-spectrum factor on the same process","why":"Only the pulse-response factor remains unresolved","requires":["sample-copies"],"produces":[],"carries":["sample-copies"]},
+    {"id":"pulse-focus","kind":"focus","branch":"pulse-transform","scene":"same-signal-product","context":"inspect-s","activeObject":"pulse","purpose":"Inspect the existing pulse and its transform","why":"We need the second factor before completing S","requires":["pulse","product"],"produces":[],"carries":["sample-copies"]},
+    {"id":"pulse-integral","kind":"derive","branch":"pulse-transform","scene":"same-signal-product","context":"inspect-s","activeObject":"pulse","purpose":"Obtain the pulse response with its phase and zero locations","why":"Relate the visible pulse to the factor that shapes the copies","requires":["pulse"],"produces":["pulse-response"],"carries":["sample-copies"]},
+    {"id":"pulse-back","kind":"return","branch":"pulse-transform","scene":"same-signal-product","context":"inspect-s","activeObject":"Sf","objects":["s","samples","pulse","Sf","product"],"purpose":"Show both known factors on the same process","why":"The product can now be evaluated","requires":["pulse-response"],"produces":[],"carries":["sample-copies","pulse-response"]},
+    {"id":"multiply","kind":"main","scene":"same-signal-product","context":"inspect-s","activeObject":"Sf","objects":["s","samples","pulse","Sf","product"],"purpose":"Multiply the known factors to obtain S","why":"This resolves the spectrum of the same transmitted signal","requires":["product","sample-copies","pulse-response"],"produces":["complete-spectrum"],"carries":["sample-copies","pulse-response","complete-spectrum"]}
+  ]
+}

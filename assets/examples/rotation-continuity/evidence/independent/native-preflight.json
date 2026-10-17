@@ -1,0 +1,11 @@
+{
+  "userAuthorizedOnlyNewTestDeck": true,
+  "attempts": 3,
+  "kernelReset": true,
+  "status": "blockedBeforeAnyWindowAction",
+  "error": "Computer Use native pipe is unavailable: failed to connect native pipe: system cannot find specified file (os error 2)",
+  "windowsListed": false,
+  "anyWindowOperated": false,
+  "nativePlaybackTested": false,
+  "noAlternativeUiAutomationOrComUsed": true
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "authorDemoSourceSha256": "490b1fa4abed451ab27abcb7ed0016ec7fb984e1c46184ef6809cfe174908515",
+  "independentComplexOracleCases": 96,
+  "actualDemoStatesChecked": 317,
+  "generatedMetadataComparedToActualSource": 317,
+  "numericComparisons": 671,
+  "demoIds": [
+    "add",
+    "focus",
+    "horizontal",
+    "process",
+    "quarter",
+    "return",
+    "subtract",
+    "thirty",
+    "vertical"
+  ],
+  "maxNumericError": 8.881784197001252e-16,
+  "equalAxisScaleAndUpwardY": true,
+  "exampleExpected": [
+    1,
+    3
+  ],
+  "exactSourceImageBoundaries": [
+    "focus -> horizontal",
+    "vertical -> return"
+  ],
+  "claimBoundary": "Tests the actual author numerical functions and generated state metadata; does not independently certify every drawn pixel or native playback."
+}

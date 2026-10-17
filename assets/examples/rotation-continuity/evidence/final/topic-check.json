@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": [
+    "Requested CCW 90 degree result is (1,3)",
+    "Returned rule gives exact 30 degree answer",
+    "Quarter-turn has positive signed area about C",
+    "2000 signed-angle/signed-coordinate cases agree with independent polar geometry",
+    "Centre remains fixed for arbitrary angles",
+    "Zero rotation preserves the input",
+    "Clockwise 90 degrees gives (3,-1)",
+    "Full revolution preserves the input",
+    "Composition agrees with successive turns",
+    "All 317 actual animation frame states and poster identities verified",
+    "30-degree centre label stays beside the actual C, clear of the y-axis in every frame",
+    "11 authored generic-topic pages; zero inherited course slides",
+    "All links target meaningful new-topic IDs",
+    "Nine demonstrations all click-start",
+    "Focus endpoint is pixel-identical to next detail entry",
+    "Detail endpoint is pixel-identical to return entry",
+    "Focus/detail/return media preserve exact on-slide position and scale",
+    "All 11 page contracts match actual packaged click-group counts",
+    "Returned rule remains visibly present at return, use and takeaway",
+    "No authored visible course identity"
+  ],
+  "assertionGroups": 20,
+  "randomCases": 2000,
+  "maximumPolarDisagreement": 5.684341886080802e-14,
+  "verifiedNumericalFrames": 317,
+  "pngMedia": 360,
+  "scope": "New rotation topic only; not old golden replay",
+  "nativePlaybackTested": false
+}

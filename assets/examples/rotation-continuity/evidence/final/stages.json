@@ -1,0 +1,177 @@
+[
+  {
+    "slide": 1,
+    "stage": 0,
+    "id": "overview"
+  },
+  {
+    "slide": 1,
+    "stage": 1,
+    "id": "overview"
+  },
+  {
+    "slide": 2,
+    "stage": 0,
+    "id": "process"
+  },
+  {
+    "slide": 2,
+    "stage": 1,
+    "id": "process"
+  },
+  {
+    "slide": 2,
+    "stage": 2,
+    "id": "process"
+  },
+  {
+    "slide": 2,
+    "stage": 3,
+    "id": "process"
+  },
+  {
+    "slide": 2,
+    "stage": 4,
+    "id": "process"
+  },
+  {
+    "slide": 3,
+    "stage": 0,
+    "id": "subtract"
+  },
+  {
+    "slide": 3,
+    "stage": 1,
+    "id": "subtract"
+  },
+  {
+    "slide": 3,
+    "stage": 2,
+    "id": "subtract"
+  },
+  {
+    "slide": 4,
+    "stage": 0,
+    "id": "quarter-turn"
+  },
+  {
+    "slide": 4,
+    "stage": 1,
+    "id": "quarter-turn"
+  },
+  {
+    "slide": 4,
+    "stage": 2,
+    "id": "quarter-turn"
+  },
+  {
+    "slide": 5,
+    "stage": 0,
+    "id": "add-back"
+  },
+  {
+    "slide": 5,
+    "stage": 1,
+    "id": "add-back"
+  },
+  {
+    "slide": 5,
+    "stage": 2,
+    "id": "add-back"
+  },
+  {
+    "slide": 6,
+    "stage": 0,
+    "id": "need-rule"
+  },
+  {
+    "slide": 6,
+    "stage": 1,
+    "id": "need-rule"
+  },
+  {
+    "slide": 7,
+    "stage": 0,
+    "id": "horizontal"
+  },
+  {
+    "slide": 7,
+    "stage": 1,
+    "id": "horizontal"
+  },
+  {
+    "slide": 7,
+    "stage": 2,
+    "id": "horizontal"
+  },
+  {
+    "slide": 8,
+    "stage": 0,
+    "id": "vertical"
+  },
+  {
+    "slide": 8,
+    "stage": 1,
+    "id": "vertical"
+  },
+  {
+    "slide": 8,
+    "stage": 2,
+    "id": "vertical"
+  },
+  {
+    "slide": 8,
+    "stage": 3,
+    "id": "vertical"
+  },
+  {
+    "slide": 9,
+    "stage": 0,
+    "id": "return-rule"
+  },
+  {
+    "slide": 9,
+    "stage": 1,
+    "id": "return-rule"
+  },
+  {
+    "slide": 9,
+    "stage": 2,
+    "id": "return-rule"
+  },
+  {
+    "slide": 9,
+    "stage": 3,
+    "id": "return-rule"
+  },
+  {
+    "slide": 10,
+    "stage": 0,
+    "id": "use-rule"
+  },
+  {
+    "slide": 10,
+    "stage": 1,
+    "id": "use-rule"
+  },
+  {
+    "slide": 10,
+    "stage": 2,
+    "id": "use-rule"
+  },
+  {
+    "slide": 10,
+    "stage": 3,
+    "id": "use-rule"
+  },
+  {
+    "slide": 11,
+    "stage": 0,
+    "id": "takeaway"
+  },
+  {
+    "slide": 11,
+    "stage": 1,
+    "id": "takeaway"
+  }
+]

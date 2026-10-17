@@ -1,0 +1,85 @@
+{
+  "finalRun": "C:\\Users\\10486\\.codex\\tmp\\skill-continuity-e2e-rotation-20261018\\tmp\\tutorial_base\\tutorial3\\methods-work\\rotation-r6",
+  "candidate": "C:\\Users\\10486\\.codex\\tmp\\skill-continuity-e2e-rotation-20261018\\tmp\\tutorial_base\\tutorial3\\methods-work\\rotation-r6\\candidate.pptx",
+  "candidateSha256": "01450447b518fcef869eaedf79b108158067b26961a8817c4974853c76c1619c",
+  "sourceSha256": {
+    "lesson-story.mjs": "b08756df6a329bcd441f96ac9eb984102ffeac6df5b716db9023fe0a717e9314",
+    "lesson-demos.mjs": "490b1fa4abed451ab27abcb7ed0016ec7fb984e1c46184ef6809cfe174908515",
+    "story-map.json": "1132f276c95fc8f4f16f1dddf9acb560b3cd334972ced954b2430ae0ee7c5620",
+    "page-contract.json": "7565474356a25c7b9e296f66652947d81e8f97dbe4d4d75a7604f11c2aa7b7ae",
+    "source-ledger.md": "4f6b44ac0de825374b5c8e54248338ad464faeb879bca3b67faa7ad665d1a70a",
+    "prepare-contracts.py": "c93645e2875603b4961ad5630afcf2d2bd5160ac8461cac32e88091ab9a9b14d",
+    "topic-check.py": "b456570895065a2684a09dcfe572b1da194f8d8aa3e6513cddaca1a41bc56785",
+    "render-evidence.py": "be3bcd69f42192c1fd43a84e701cd9c67051e7186f8304f66f28313d1039e080",
+    "freeze-delivery.py": "ee67db3be0e20b8a1d03a0e0b281d15ad6807787cbe8e95bff126d3a182bb314",
+    "revision-log.md": "d1cb6e467443bc8e00e9bb91cddf2c5b7a4baeeba511519e14575deb9aab6362",
+    "review-findings-r1.md": "83e8da2af40d958df9f69c07f886b537b6ee7a9d933cbc51fdd8617068f7b562",
+    "story-map-check-final.json": "235d229b2d4c0716deea6b09a3cc33c834e7fbbe65daa9e530038bcdc47ace7a",
+    "reproduce.ps1": "e29e44137fb41e1d915539aab1f0a5fb4f68d2e54d8ed9c4e284ce024c7b42f8",
+    "self-review.md": "d51849969050a4e7e481cc3ca5ef8c401379d842450bb6bbcba67607457f3530",
+    "verify-r6-evidence.py": "a9280beadd8c5314ffc863060212923e2b256a13a1547f52ff8f02e35e80ab9b",
+    "skill-helper-failure.md": "0d43bd79ea61b03d18ee880de3113544562a0db5283645aec743f3789fa9994d",
+    "skill-integrity-observation.json": "ade8aa231a755ab84b4263d651ab952acde1be0b5f0316e4f9ac1f32d551cc6e"
+  },
+  "sourceArchiveSha256": "b26b93860d6d7e103e4ff91c6f611c9c4ab607e95e0df12a1e827c3ed00c8cd9",
+  "newTopic": {
+    "slides": 11,
+    "clickGroups": 24,
+    "clickEndpointRenders": 35,
+    "modeledTimelineRenders": 107,
+    "nativeClickDemonstrations": 9,
+    "numericalFrames": 317,
+    "independentMathAssertionGroups": 20,
+    "randomPolarCases": 2000,
+    "maximumPolarError": 5.684341886080802e-14,
+    "svgTextBoxFindings": 0,
+    "storyStates": 12,
+    "branches": 1
+  },
+  "evidence": {
+    "finals": "quality-review/final-001.png through final-011.png",
+    "allClickEndpoints": "quality-review/click-001.png through click-035.png",
+    "allModeledStates": "quality-review/motion-001.png through motion-107.png",
+    "overview": "quality-review/overview.png",
+    "perPageSequences": "quality-review/sequence-1.png through sequence-11.png",
+    "perPageMotions": "quality-review/motion-N.png",
+    "allNumericalFrameSheets": "full-frame-review/*.png",
+    "allRawNumericalFrames": "demos/*/frame-*.png",
+    "indices": [
+      "stages.json",
+      "timeline-stages.json",
+      "demos/*/frames.json"
+    ]
+  },
+  "helperFailures": [
+    {
+      "command": "workflow.py verify (late repeat)",
+      "exitCode": 1,
+      "exactErrorFile": "frozen-source/skill-helper-failure.md",
+      "hashEvidence": "frozen-source/skill-integrity-observation.json",
+      "minimalWorkaround": "Freeze staged engine and source hashes; retain failure; no installed-skill edits"
+    }
+  ],
+  "authoringFindings": "revision-log.md and review-findings-r1.md",
+  "limits": {
+    "nativePowerPointPlayback": false,
+    "nativePreviousNextReplay": false,
+    "classroomTimedRehearsal": false,
+    "studentUnderstandingOrUserTeachingApproval": false,
+    "framesAreRaster": true,
+    "equationsAreVectorImagesWithEditableTeXSources": true,
+    "modeledImagesAreNotNativePlayback": true,
+    "r1ExactSourceSnapshotUnavailable": true
+  },
+  "oldGoldenReplay": {
+    "executed": false,
+    "countsNotUsedForNewTopic": true
+  },
+  "privatePriorRunsPreserved": [
+    "rotation-r1",
+    "rotation-r2",
+    "rotation-r3",
+    "rotation-r4",
+    "rotation-r5"
+  ]
+}

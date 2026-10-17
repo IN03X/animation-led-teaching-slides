@@ -1,0 +1,14 @@
+{
+  "genericEndNavigation": true,
+  "emptyDemosReview": true,
+  "authoredCoverEndEndpoints": 5,
+  "authoredCoverEndModeledFrames": 14,
+  "externalAuthorSchemaPathAbsent": true,
+  "singleRelocationLogicalX": 200.0,
+  "manifestPdfWithoutMedia": true,
+  "pdfPages": 2,
+  "pdfLinks": 2,
+  "pdfImagePixelsPreserved": true,
+  "pdfAuthorLeak": false,
+  "nativePlaybackTested": false
+}

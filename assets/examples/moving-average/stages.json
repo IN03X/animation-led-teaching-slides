@@ -1,0 +1,62 @@
+[
+  {
+    "slide": 1,
+    "stage": 0,
+    "id": "overview"
+  },
+  {
+    "slide": 2,
+    "stage": 0,
+    "id": "one-pair"
+  },
+  {
+    "slide": 2,
+    "stage": 1,
+    "id": "one-pair"
+  },
+  {
+    "slide": 2,
+    "stage": 2,
+    "id": "one-pair"
+  },
+  {
+    "slide": 3,
+    "stage": 0,
+    "id": "rule"
+  },
+  {
+    "slide": 3,
+    "stage": 1,
+    "id": "rule"
+  },
+  {
+    "slide": 3,
+    "stage": 2,
+    "id": "rule"
+  },
+  {
+    "slide": 4,
+    "stage": 0,
+    "id": "moving-pair"
+  },
+  {
+    "slide": 4,
+    "stage": 1,
+    "id": "moving-pair"
+  },
+  {
+    "slide": 4,
+    "stage": 2,
+    "id": "moving-pair"
+  },
+  {
+    "slide": 5,
+    "stage": 0,
+    "id": "worked-example"
+  },
+  {
+    "slide": 6,
+    "stage": 0,
+    "id": "takeaway"
+  }
+]

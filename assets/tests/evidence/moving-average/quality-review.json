@@ -1,0 +1,22 @@
+{
+  "candidateHash": "279245df426e3e37084dbed79b510311d7f6ecd5c4df3b736a980beff607acd4",
+  "slides": 6,
+  "finalRenders": 6,
+  "clickEndpoints": 12,
+  "modeledMotionFrames": 30,
+  "nativeClickAnimations": 2,
+  "structuralChecks": true,
+  "nonblankEndpoints": true,
+  "formulaMinimumLogicalSize": 20,
+  "humanReviewRequired": [
+    "source-specific math",
+    "mainline continuity and each new symbol",
+    "visual hierarchy",
+    "all endpoints and relevant intermediates",
+    "local pointer targets and plotted axes",
+    "navigation meaning"
+  ],
+  "teachingApproved": false,
+  "nativePlaybackTested": false,
+  "classroomTimingTested": false
+}

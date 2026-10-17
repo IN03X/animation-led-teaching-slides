@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "authorDemoSourceSha256": "c9a116e2208394826d2506d577e594d0aee997f63cf931c6efb32a2bbb5ae9ae",
+  "independentComplexOracleCases": 96,
+  "actualDemoStatesChecked": 174,
+  "generatedMetadataComparedToActualSource": 174,
+  "numericComparisons": 358,
+  "maxNumericError": 8.881784197001252e-16,
+  "equalAxisScaleAndUpwardY": true,
+  "exampleExpected": [
+    1,
+    3
+  ],
+  "claimBoundary": "Tests the actual author numerical functions and generated state metadata; does not independently certify every drawn pixel or native playback."
+}

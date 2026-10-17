@@ -1,0 +1,3280 @@
+{
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Turn around C, not around the origin",
+      "focus": null,
+      "note": "Start with the known points P=(4,2) and C=(2,1). We want a quarter turn counterclockwise about C. The centre stays fixed and the distance CP stays fixed. Coordinates use rightward x and upward y with equal scales. The light circle is the set of possible positions at the same distance from C. First identify which point must remain fixed. About 30 seconds.",
+      "parent": "overview",
+      "purpose": "Turn around C, not around the origin"
+    },
+    {
+      "id": "process",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Measure from C, turn, then put C back",
+      "focus": null,
+      "note": "Moving the origin to C lets us turn around zero, where the coordinate directions are familiar. Q names the displacement from C to P. The scaffolding is fixed; each click fills the next actual object. Subtract C, rotate Q, then add C to get the world point P prime. We will now carry out these exact operations. About 35 seconds.",
+      "parent": "overview",
+      "purpose": "Measure from C, turn, then put C back"
+    },
+    {
+      "id": "subtract",
+      "title": "Rotate a point about a centre",
+      "subtitle": "1. Subtract the centre",
+      "focus": null,
+      "note": "Compute the coordinate differences first. A click translates both P and C by (-2,-1); the original points remain as light outlines. C arrives at zero, and P arrives at Q=(2,1). This is the same offset, with length sqrt(5), now based at zero. A later click records the subtraction. This coordinate move prepares the rotation; it has not turned the point. About 35 seconds.",
+      "parent": "overview",
+      "purpose": "1. Subtract the centre"
+    },
+    {
+      "id": "quarter-turn",
+      "title": "Rotate a point about a centre",
+      "subtitle": "2. Turn the offset 90 degrees counterclockwise",
+      "focus": null,
+      "note": "The offset is 2 right and 1 up. Under a counterclockwise quarter turn, the rightward leg becomes 2 up, and the upward leg becomes 1 left. The first click turns the actual offset and both coordinate legs once, then holds. Read the endpoint (-1,2). The next click writes Q prime=(-v,u). A positive quarter turn swaps the coordinates and negates the new horizontal coordinate. About 45 seconds.",
+      "parent": "overview",
+      "purpose": "2. Turn the offset 90 degrees counterclockwise"
+    },
+    {
+      "id": "add-back",
+      "title": "Rotate a point about a centre",
+      "subtitle": "3. Add the same centre back",
+      "focus": null,
+      "note": "We have turned only the offset. The world point must be based at C=(2,1). A click moves the rotated arrow from zero back to the same C, keeping the arrow direction and length. It ends at P prime=(1,3). Then record (2,1)+(-1,2). Check CP and CP prime both have length sqrt(5), and the angle is counterclockwise 90 degrees. About 40 seconds.",
+      "parent": "overview",
+      "purpose": "3. Add the same centre back"
+    },
+    {
+      "id": "need-rule",
+      "title": "Rotate a point about a centre",
+      "subtitle": "The same process, now with any angle",
+      "focus": null,
+      "note": "The concrete example is complete. Now replace 90 degrees by a signed angle theta and use P=(x,y), C=(a,b). The outer operations already work: subtract the centre and add it back. Only the middle operation needs a rule for the rotated coordinates U,V. Its selected outline marks the object we now inspect. The next two pages answer this precise missing question. About 30 seconds.",
+      "parent": "overview",
+      "purpose": "The same process, now with any angle"
+    },
+    {
+      "id": "horizontal",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Inside the rotation: follow the horizontal leg",
+      "focus": null,
+      "note": "We are inspecting the selected middle operation, not changing the process. Split Q=(u,v) into a horizontal arrow (u,0) followed by a vertical arrow (0,v). The endpoint is still Q. Turn the first arrow by theta. By the coordinate definition of cosine and sine its projections are u cos(theta) and u sin(theta). The illustration uses u=2,v=1,theta=35 degrees to keep the legs visible; the formula is general. The next page turns the remaining leg and joins it back. About 55 seconds.",
+      "parent": "overview",
+      "purpose": "Inside the rotation: follow the horizontal leg"
+    },
+    {
+      "id": "vertical",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Inside the rotation: turn the other leg and join",
+      "focus": null,
+      "note": "The vertical unit direction is a counterclockwise quarter turn from the horizontal unit direction. After turning by theta the two remain perpendicular. Apply the already justified quarter-turn rule to (cos(theta),sin(theta)): it becomes (-sin(theta),cos(theta)). Multiply by signed v for the second leg. A rigid rotation preserves head-to-tail joins, so translate the turned vertical leg to the end of H and add its coordinates. The animation shows this turn and joining operation once. Negative u or v reverses the relevant leg; signed sine and cosine cover all quadrants. Zero legs simply vanish. About 65 seconds.",
+      "parent": "overview",
+      "purpose": "Inside the rotation: turn the other leg and join"
+    },
+    {
+      "id": "return-rule",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Return: put the result into the same middle operation",
+      "focus": null,
+      "note": "We return to the exact subtract-rotate-add layout from the question page. The centre and input keep their identities. The derived rule now fills the previously unresolved rotation operation, with its signed counterclockwise condition. Add the same centre to its two output coordinates. This establishes the general world-coordinate answer. The example at 90 degrees remains available as a check. Next we use this rule at a different angle, not begin another topic. About 45 seconds.",
+      "parent": "overview",
+      "purpose": "Return: put the result into the same middle operation"
+    },
+    {
+      "id": "use-rule",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Use it: the same P and C, now 30 degrees",
+      "focus": null,
+      "note": "The angle changes visibly from 90 to 30 degrees; P,C and their offset (2,1) stay fixed. Retain the returned rule while substituting cos(30)=sqrt(3)/2 and sin(30)=1/2. First compute U=sqrt(3)-1/2 and V=1+sqrt(3)/2. The next click animates this actual 30-degree rotation about C once; it holds at the new point. The last click adds C, yielding (3/2+sqrt(3),2+sqrt(3)/2), approximately (3.232,2.866). About 55 seconds.",
+      "parent": "overview",
+      "purpose": "Use it: the same P and C, now 30 degrees"
+    },
+    {
+      "id": "takeaway",
+      "title": "Rotate a point about a centre",
+      "subtitle": "Subtract the centre. Turn the offset. Add it back.",
+      "focus": null,
+      "note": "Keep one process: P to P-C to the rotated offset to C plus that offset. State the conditions: Cartesian coordinates with equal axis scale; positive angle counterclockwise, negative clockwise. The coordinate rule follows from the two rotated legs, not a matrix. At zero angle the point returns to itself, and a point equal to C remains C for every angle. Distance to C is preserved. For the given 90-degree example the answer is (1,3). This is the completed lesson. About 35 seconds.",
+      "parent": "overview",
+      "purpose": "Subtract the centre. Turn the offset. Add it back."
+    }
+  ],
+  "equations": [
+    {
+      "slide": 1,
+      "name": "givens",
+      "tex": "P=(4,2),\\quad C=(2,1),\\quad \\theta=90^\\circ\\ \\text{counterclockwise}",
+      "x": 70,
+      "y": 130,
+      "w": 1135,
+      "h": 60,
+      "size": 30,
+      "align": "left",
+      "file": "formula-01.svg",
+      "actualWidth": 771,
+      "actualHeight": 30,
+      "actualLeft": 70,
+      "actualTop": 145,
+      "actualFontSize": 30
+    },
+    {
+      "slide": 2,
+      "name": "route-input",
+      "tex": "P=(4,2),\\ C=(2,1)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-02.svg",
+      "actualWidth": 265,
+      "actualHeight": 24.84375,
+      "actualLeft": 70,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 2,
+      "name": "route-offset",
+      "tex": "Q=(2,1)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-03.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 462,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 2,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 2,
+      "name": "subtract-build",
+      "tex": "Q=P-C=(4-2,\\ 2-1)=(2,1)",
+      "x": 70,
+      "y": 365,
+      "w": 1135,
+      "h": 62,
+      "size": 34,
+      "align": "left",
+      "file": "formula-05.svg",
+      "actualWidth": 608.6,
+      "actualHeight": 34,
+      "actualLeft": 70,
+      "actualTop": 379,
+      "actualFontSize": 34
+    },
+    {
+      "slide": 2,
+      "name": "rotation-build",
+      "tex": "Q\\ \\xrightarrow{\\,90^\\circ\\ \\text{CCW}\\,}\\ Q'",
+      "x": 70,
+      "y": 450,
+      "w": 1135,
+      "h": 62,
+      "size": 32,
+      "align": "left",
+      "file": "formula-06.svg",
+      "actualWidth": 268.8,
+      "actualHeight": 43.400000000000006,
+      "actualLeft": 70,
+      "actualTop": 459.3,
+      "actualFontSize": 32
+    },
+    {
+      "slide": 2,
+      "name": "add-build",
+      "tex": "P'=C+Q'",
+      "x": 70,
+      "y": 560,
+      "w": 1135,
+      "h": 62,
+      "size": 36,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 216,
+      "actualHeight": 33.975,
+      "actualLeft": 70,
+      "actualTop": 574.0125,
+      "actualFontSize": 36
+    },
+    {
+      "slide": 3,
+      "name": "route-input",
+      "tex": "P=(4,2),\\ C=(2,1)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-02.svg",
+      "actualWidth": 265,
+      "actualHeight": 24.84375,
+      "actualLeft": 70,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 3,
+      "name": "route-offset",
+      "tex": "Q=(2,1)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-03.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 462,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 3,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 3,
+      "name": "subtract-answer",
+      "tex": "Q=P-C=(4-2,\\ 2-1)=(2,1)",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-05.svg",
+      "actualWidth": 626.5,
+      "actualHeight": 35,
+      "actualLeft": 70,
+      "actualTop": 621.5,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 4,
+      "name": "route-input",
+      "tex": "P=(4,2),\\ C=(2,1)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-02.svg",
+      "actualWidth": 265,
+      "actualHeight": 24.84375,
+      "actualLeft": 70,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 4,
+      "name": "route-offset",
+      "tex": "Q=(2,1)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-03.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 462,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 4,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 4,
+      "name": "quarter-answer",
+      "tex": "(u,v)\\mapsto(-v,u),\\qquad (2,1)\\mapsto Q'=(-1,2)",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-07.svg",
+      "actualWidth": 745.5,
+      "actualHeight": 35,
+      "actualLeft": 70,
+      "actualTop": 621.5,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 5,
+      "name": "route-input",
+      "tex": "P=(4,2),\\ C=(2,1)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-02.svg",
+      "actualWidth": 265,
+      "actualHeight": 24.84375,
+      "actualLeft": 70,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 5,
+      "name": "route-offset",
+      "tex": "Q=(2,1)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-03.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 462,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 5,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 5,
+      "name": "example-answer",
+      "tex": "P'=C+Q'=(2,1)+(-1,2)=(1,3)",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-08.svg",
+      "actualWidth": 665,
+      "actualHeight": 34.78125,
+      "actualLeft": 70,
+      "actualTop": 621.609375,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 6,
+      "name": "route-input",
+      "tex": "P=(x,y)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-09.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 70,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 6,
+      "name": "route-offset",
+      "tex": "Q=(u,v)=(x-a,y-b)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-10.svg",
+      "actualWidth": 330,
+      "actualHeight": 24.84375,
+      "actualLeft": 462,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 6,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 6,
+      "name": "known-outer",
+      "tex": "Q=(u,v)=(x-a,y-b),\\qquad Q'=(U,V)",
+      "x": 70,
+      "y": 300,
+      "w": 1135,
+      "h": 62,
+      "size": 33,
+      "align": "left",
+      "file": "formula-11.svg",
+      "actualWidth": 722.6999999999999,
+      "actualHeight": 33,
+      "actualLeft": 70,
+      "actualTop": 314.5,
+      "actualFontSize": 33
+    },
+    {
+      "slide": 7,
+      "name": "split",
+      "tex": "Q=(u,0)+(0,v)",
+      "x": 70,
+      "y": 191,
+      "w": 1135,
+      "h": 62,
+      "size": 31,
+      "align": "left",
+      "file": "formula-12.svg",
+      "actualWidth": 279,
+      "actualHeight": 31,
+      "actualLeft": 70,
+      "actualTop": 206.5,
+      "actualFontSize": 31
+    },
+    {
+      "slide": 7,
+      "name": "horizontal-answer",
+      "tex": "(u,0)\\mapsto H=(u\\cos\\theta,\\ u\\sin\\theta)",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-13.svg",
+      "actualWidth": 521.5,
+      "actualHeight": 35,
+      "actualLeft": 70,
+      "actualTop": 621.5,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 8,
+      "name": "retained-horizontal",
+      "tex": "H=(u\\cos\\theta,\\ u\\sin\\theta)",
+      "x": 70,
+      "y": 188,
+      "w": 1135,
+      "h": 62,
+      "size": 28,
+      "align": "left",
+      "file": "formula-14.svg",
+      "actualWidth": 294,
+      "actualHeight": 28,
+      "actualLeft": 70,
+      "actualTop": 205,
+      "actualFontSize": 28
+    },
+    {
+      "slide": 8,
+      "name": "vertical-leg",
+      "tex": "(0,v)\\mapsto K=(-v\\sin\\theta,\\ v\\cos\\theta)",
+      "x": 70,
+      "y": 571,
+      "w": 1135,
+      "h": 62,
+      "size": 28,
+      "align": "left",
+      "file": "formula-15.svg",
+      "actualWidth": 439.59999999999997,
+      "actualHeight": 27.825,
+      "actualLeft": 70,
+      "actualTop": 588.0875,
+      "actualFontSize": 28
+    },
+    {
+      "slide": 8,
+      "name": "rotation-answer",
+      "tex": "Q'=H+K=(u\\cos\\theta-v\\sin\\theta,\\ u\\sin\\theta+v\\cos\\theta)",
+      "x": 70,
+      "y": 640,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-16.svg",
+      "actualWidth": 857.5,
+      "actualHeight": 35,
+      "actualLeft": 70,
+      "actualTop": 653.5,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 9,
+      "name": "route-input",
+      "tex": "P=(x,y)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-09.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 70,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 9,
+      "name": "route-offset",
+      "tex": "Q=(u,v)=(x-a,y-b)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-10.svg",
+      "actualWidth": 330,
+      "actualHeight": 24.84375,
+      "actualLeft": 462,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 9,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 9,
+      "name": "returned-rule",
+      "tex": "U=u\\cos\\theta-v\\sin\\theta,\\qquad V=u\\sin\\theta+v\\cos\\theta",
+      "x": 70,
+      "y": 280,
+      "w": 1135,
+      "h": 62,
+      "size": 31,
+      "align": "left",
+      "file": "formula-17.svg",
+      "actualWidth": 709.9,
+      "actualHeight": 27.70625,
+      "actualLeft": 70,
+      "actualTop": 297.146875,
+      "actualFontSize": 31
+    },
+    {
+      "slide": 9,
+      "name": "general-x",
+      "tex": "x'=a+(x-a)\\cos\\theta-(y-b)\\sin\\theta",
+      "x": 70,
+      "y": 433,
+      "w": 1135,
+      "h": 62,
+      "size": 32,
+      "align": "left",
+      "file": "formula-18.svg",
+      "actualWidth": 569.6,
+      "actualHeight": 32,
+      "actualLeft": 70,
+      "actualTop": 448,
+      "actualFontSize": 32
+    },
+    {
+      "slide": 9,
+      "name": "general-y",
+      "tex": "y'=b+(x-a)\\sin\\theta+(y-b)\\cos\\theta",
+      "x": 70,
+      "y": 515,
+      "w": 1135,
+      "h": 62,
+      "size": 32,
+      "align": "left",
+      "file": "formula-19.svg",
+      "actualWidth": 572.8000000000001,
+      "actualHeight": 32,
+      "actualLeft": 70,
+      "actualTop": 530,
+      "actualFontSize": 32
+    },
+    {
+      "slide": 10,
+      "name": "changed-angle",
+      "tex": "P=(4,2),\\ C=(2,1),\\ (u,v)=(2,1),\\quad \\theta:\\ 90^\\circ\\to30^\\circ",
+      "x": 70,
+      "y": 126,
+      "w": 1135,
+      "h": 56,
+      "size": 29,
+      "align": "left",
+      "file": "formula-20.svg",
+      "actualWidth": 780.1,
+      "actualHeight": 28.818749999999998,
+      "actualLeft": 70,
+      "actualTop": 139.590625,
+      "actualFontSize": 29
+    },
+    {
+      "slide": 10,
+      "name": "used-rule",
+      "tex": "U=u\\cos\\theta-v\\sin\\theta,\\quad V=u\\sin\\theta+v\\cos\\theta",
+      "x": 70,
+      "y": 196,
+      "w": 1135,
+      "h": 49,
+      "size": 29,
+      "align": "left",
+      "file": "formula-21.svg",
+      "actualWidth": 632.1999999999999,
+      "actualHeight": 25.91875,
+      "actualLeft": 70,
+      "actualTop": 207.540625,
+      "actualFontSize": 29
+    },
+    {
+      "slide": 10,
+      "name": "substitution",
+      "tex": "U=2\\frac{\\sqrt3}{2}-\\frac12=\\sqrt3-\\frac12,\\qquad V=2\\frac12+\\frac{\\sqrt3}{2}=1+\\frac{\\sqrt3}{2}",
+      "x": 70,
+      "y": 252,
+      "w": 1135,
+      "h": 62,
+      "size": 29,
+      "align": "left",
+      "file": "formula-22.svg",
+      "actualWidth": 748.1999999999999,
+      "actualHeight": 41.14375,
+      "actualLeft": 70,
+      "actualTop": 262.428125,
+      "actualFontSize": 29
+    },
+    {
+      "slide": 10,
+      "name": "thirty-answer",
+      "tex": "P'=\\left(\\frac32+\\sqrt3,\\ 2+\\frac{\\sqrt3}{2}\\right)\\approx(3.232,\\ 2.866)",
+      "x": 70,
+      "y": 620,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-23.svg",
+      "actualWidth": 701.6585365853658,
+      "actualHeight": 62,
+      "actualLeft": 70,
+      "actualTop": 620,
+      "actualFontSize": 34.56445993031359
+    },
+    {
+      "slide": 11,
+      "name": "route-input",
+      "tex": "P=(x,y)",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-09.svg",
+      "actualWidth": 122.5,
+      "actualHeight": 24.6875,
+      "actualLeft": 70,
+      "actualTop": 206.15625,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 11,
+      "name": "route-offset",
+      "tex": "Q=(u,v)=(x-a,y-b)",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-10.svg",
+      "actualWidth": 330,
+      "actualHeight": 24.84375,
+      "actualLeft": 462,
+      "actualTop": 206.078125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 11,
+      "name": "route-output",
+      "tex": "P'=C+Q'",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "size": 25,
+      "align": "left",
+      "file": "formula-04.svg",
+      "actualWidth": 150,
+      "actualHeight": 23.59375,
+      "actualLeft": 854,
+      "actualTop": 206.703125,
+      "actualFontSize": 25
+    },
+    {
+      "slide": 11,
+      "name": "takeaway-rotation",
+      "tex": "(U,V)=(u\\cos\\theta-v\\sin\\theta,\\ u\\sin\\theta+v\\cos\\theta)",
+      "x": 70,
+      "y": 285,
+      "w": 1135,
+      "h": 62,
+      "size": 32,
+      "align": "left",
+      "file": "formula-24.svg",
+      "actualWidth": 697.6,
+      "actualHeight": 32,
+      "actualLeft": 70,
+      "actualTop": 300,
+      "actualFontSize": 32
+    },
+    {
+      "slide": 11,
+      "name": "takeaway-output",
+      "tex": "P'=(a+U,\\ b+V),\\qquad (u,v)=(x-a,y-b)",
+      "x": 70,
+      "y": 390,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-25.svg",
+      "actualWidth": 833,
+      "actualHeight": 35,
+      "actualLeft": 70,
+      "actualTop": 403.5,
+      "actualFontSize": 35
+    },
+    {
+      "slide": 11,
+      "name": "final-example",
+      "tex": "P=(4,2),\\quad C=(2,1),\\quad \\theta=90^\\circ\\quad\\Longrightarrow\\quad P'=(1,3)",
+      "x": 70,
+      "y": 625,
+      "w": 1135,
+      "h": 62,
+      "size": 35,
+      "align": "left",
+      "file": "formula-26.svg",
+      "actualWidth": 938,
+      "actualHeight": 34.78125,
+      "actualLeft": 70,
+      "actualTop": 638.609375,
+      "actualFontSize": 35
+    }
+  ],
+  "animation": [
+    {
+      "slide": 1,
+      "name": "quarter-arc",
+      "stage": 1
+    },
+    {
+      "slide": 1,
+      "name": "turn-label",
+      "stage": 1
+    },
+    {
+      "slide": 1,
+      "name": "radius-label",
+      "stage": 1
+    },
+    {
+      "slide": 2,
+      "name": "subtract-build",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 2,
+      "name": "rotation-build",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 2,
+      "name": "add-build",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 3,
+      "name": "subtract",
+      "stage": 1,
+      "playMedia": true
+    },
+    {
+      "slide": 3,
+      "name": "subtract-answer",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 3,
+      "name": "subtract-answer-underline",
+      "stage": 2
+    },
+    {
+      "slide": 4,
+      "name": "quarter",
+      "stage": 1,
+      "playMedia": true
+    },
+    {
+      "slide": 4,
+      "name": "quarter-answer",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 4,
+      "name": "quarter-answer-underline",
+      "stage": 2
+    },
+    {
+      "slide": 5,
+      "name": "add",
+      "stage": 1,
+      "playMedia": true
+    },
+    {
+      "slide": 5,
+      "name": "example-answer",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 5,
+      "name": "example-answer-underline",
+      "stage": 2
+    },
+    {
+      "slide": 7,
+      "name": "horizontal",
+      "stage": 1,
+      "playMedia": true
+    },
+    {
+      "slide": 7,
+      "name": "horizontal-answer",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 7,
+      "name": "horizontal-answer-underline",
+      "stage": 2
+    },
+    {
+      "slide": 8,
+      "name": "vertical",
+      "stage": 1,
+      "playMedia": true
+    },
+    {
+      "slide": 8,
+      "name": "vertical-leg",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 8,
+      "name": "rotation-answer",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 8,
+      "name": "rotation-answer-underline",
+      "stage": 3
+    },
+    {
+      "slide": 9,
+      "name": "general-x",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 9,
+      "name": "general-y",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 10,
+      "name": "substitution",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 10,
+      "name": "thirty",
+      "stage": 2,
+      "playMedia": true
+    },
+    {
+      "slide": 10,
+      "name": "thirty-answer",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 10,
+      "name": "thirty-answer-underline",
+      "stage": 3
+    },
+    {
+      "slide": 11,
+      "name": "final-example",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 11,
+      "name": "final-example-underline",
+      "stage": 1
+    }
+  ],
+  "geometry": [
+    {
+      "slide": 1,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "givens",
+      "x": 70,
+      "y": 130,
+      "w": 1135,
+      "h": 60,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "x-axis",
+      "x": 255,
+      "y": 530,
+      "w": 510,
+      "h": 0.01,
+      "kind": "custom",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "y-axis",
+      "x": 340,
+      "y": 232.5,
+      "w": 0.01,
+      "h": 348.5,
+      "kind": "custom",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "x",
+      "x": 775,
+      "y": 520,
+      "w": 35,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "y",
+      "x": 328,
+      "y": 192.5,
+      "w": 35,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-x-0",
+      "x": 328,
+      "y": 538,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-x-1",
+      "x": 413,
+      "y": 538,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-x-2",
+      "x": 498,
+      "y": 538,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-x-3",
+      "x": 583,
+      "y": 538,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-x-4",
+      "x": 668,
+      "y": 538,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-y-1",
+      "x": 300,
+      "y": 429,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-y-2",
+      "x": 300,
+      "y": 344,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "tick-y-3",
+      "x": 300,
+      "y": 259,
+      "w": 28,
+      "h": 30,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "centre",
+      "x": 505,
+      "y": 440,
+      "w": 10,
+      "h": 10,
+      "kind": "ellipse",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "centre-label",
+      "x": 527,
+      "y": 453,
+      "w": 160,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "point",
+      "x": 674,
+      "y": 354,
+      "w": 12,
+      "h": 12,
+      "kind": "ellipse",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "point-label",
+      "x": 695,
+      "y": 340,
+      "w": 180,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "radius",
+      "x": 510,
+      "y": 360,
+      "w": 170,
+      "h": 85,
+      "kind": "custom",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "fixed-point",
+      "x": 900,
+      "y": 330,
+      "w": 290,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 1,
+      "name": "quarter-arc",
+      "x": 425,
+      "y": 254.93709527082785,
+      "w": 255,
+      "h": 105.06290472917215,
+      "kind": "custom",
+      "stage": 1
+    },
+    {
+      "slide": 1,
+      "name": "turn-label",
+      "x": 760,
+      "y": 245,
+      "w": 440,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 1
+    },
+    {
+      "slide": 1,
+      "name": "radius-label",
+      "x": 900,
+      "y": 385,
+      "w": 290,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 1
+    },
+    {
+      "slide": 1,
+      "name": "goal",
+      "x": 70,
+      "y": 637,
+      "w": 1135,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "offset-meaning",
+      "x": 70,
+      "y": 285,
+      "w": 1135,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 2,
+      "name": "subtract-build",
+      "x": 70,
+      "y": 365,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 2,
+      "name": "rotation-build",
+      "x": 70,
+      "y": 450,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 2,
+      "name": "add-build",
+      "x": 70,
+      "y": 560,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 3,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 3,
+      "name": "subtract",
+      "x": 70,
+      "y": 270,
+      "w": 1120,
+      "h": 300,
+      "kind": "media",
+      "stage": 1
+    },
+    {
+      "slide": 3,
+      "name": "subtract-answer",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 3,
+      "name": "subtract-answer-underline",
+      "x": 70,
+      "y": 673,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 2
+    },
+    {
+      "slide": 4,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 4,
+      "name": "quarter",
+      "x": 70,
+      "y": 270,
+      "w": 1120,
+      "h": 300,
+      "kind": "media",
+      "stage": 1
+    },
+    {
+      "slide": 4,
+      "name": "quarter-answer",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 4,
+      "name": "quarter-answer-underline",
+      "x": 70,
+      "y": 673,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 2
+    },
+    {
+      "slide": 5,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 5,
+      "name": "add",
+      "x": 70,
+      "y": 270,
+      "w": 1120,
+      "h": 300,
+      "kind": "media",
+      "stage": 1
+    },
+    {
+      "slide": 5,
+      "name": "example-answer",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 5,
+      "name": "example-answer-underline",
+      "x": 70,
+      "y": 673,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 2
+    },
+    {
+      "slide": 6,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "selected-rotation",
+      "x": 457,
+      "y": 128,
+      "w": 364,
+      "h": 61,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "known-outer",
+      "x": 70,
+      "y": 300,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 6,
+      "name": "need-question",
+      "x": 70,
+      "y": 403,
+      "w": 1135,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "selected-pointer",
+      "x": 462,
+      "y": 468,
+      "w": 730,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 6,
+      "name": "prior-result",
+      "x": 70,
+      "y": 630,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 7,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 7,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 7,
+      "name": "focus-context",
+      "x": 70,
+      "y": 129,
+      "w": 1135,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 7,
+      "name": "split",
+      "x": 70,
+      "y": 191,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 7,
+      "name": "horizontal",
+      "x": 70,
+      "y": 270,
+      "w": 1120,
+      "h": 300,
+      "kind": "media",
+      "stage": 1
+    },
+    {
+      "slide": 7,
+      "name": "horizontal-answer",
+      "x": 70,
+      "y": 608,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 7,
+      "name": "horizontal-answer-underline",
+      "x": 70,
+      "y": 673,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 2
+    },
+    {
+      "slide": 8,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 8,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 8,
+      "name": "focus-context",
+      "x": 70,
+      "y": 129,
+      "w": 1135,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 8,
+      "name": "retained-horizontal",
+      "x": 70,
+      "y": 188,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 8,
+      "name": "vertical",
+      "x": 70,
+      "y": 270,
+      "w": 1120,
+      "h": 300,
+      "kind": "media",
+      "stage": 1
+    },
+    {
+      "slide": 8,
+      "name": "vertical-leg",
+      "x": 70,
+      "y": 571,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 8,
+      "name": "rotation-answer",
+      "x": 70,
+      "y": 640,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 8,
+      "name": "rotation-answer-underline",
+      "x": 70,
+      "y": 705,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 3
+    },
+    {
+      "slide": 9,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "selected-rotation",
+      "x": 457,
+      "y": 128,
+      "w": 364,
+      "h": 61,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "returned-rule",
+      "x": 70,
+      "y": 280,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 9,
+      "name": "rule-condition",
+      "x": 70,
+      "y": 364,
+      "w": 1135,
+      "h": 42,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 9,
+      "name": "general-x",
+      "x": 70,
+      "y": 433,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 9,
+      "name": "general-y",
+      "x": 70,
+      "y": 515,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 2,
+      "role": "equation"
+    },
+    {
+      "slide": 9,
+      "name": "retained-example",
+      "x": 70,
+      "y": 644,
+      "w": 1135,
+      "h": 38,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 10,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 10,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 10,
+      "name": "changed-angle",
+      "x": 70,
+      "y": 126,
+      "w": 1135,
+      "h": 56,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 10,
+      "name": "used-rule",
+      "x": 70,
+      "y": 196,
+      "w": 1135,
+      "h": 49,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 10,
+      "name": "substitution",
+      "x": 70,
+      "y": 252,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 10,
+      "name": "thirty",
+      "x": 70,
+      "y": 335,
+      "w": 1120,
+      "h": 250,
+      "kind": "media",
+      "stage": 2
+    },
+    {
+      "slide": 10,
+      "name": "thirty-answer",
+      "x": 70,
+      "y": 620,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 3,
+      "role": "equation"
+    },
+    {
+      "slide": 10,
+      "name": "thirty-answer-underline",
+      "x": 70,
+      "y": 685,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 3
+    },
+    {
+      "slide": 11,
+      "name": "title",
+      "x": 70,
+      "y": 25,
+      "w": 1110,
+      "h": 44,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "subtitle",
+      "x": 70,
+      "y": 66,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-0-box",
+      "x": 70,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-0-text",
+      "x": 78,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-1-box",
+      "x": 462,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-1-text",
+      "x": 470,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-2-box",
+      "x": 854,
+      "y": 133,
+      "w": 354,
+      "h": 51,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "operation-2-text",
+      "x": 862,
+      "y": 141,
+      "w": 338,
+      "h": 35,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-1-shaft",
+      "x": 429,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-1-head",
+      "x": 445,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-2-shaft",
+      "x": 821,
+      "y": 158,
+      "w": 18,
+      "h": 1.7,
+      "kind": "rect",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-2-head",
+      "x": 837,
+      "y": 153.5,
+      "w": 11,
+      "h": 11,
+      "kind": "triangle",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-input",
+      "x": 70,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-offset",
+      "x": 462,
+      "y": 197,
+      "w": 380,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "route-output",
+      "x": 854,
+      "y": 197,
+      "w": 354,
+      "h": 43,
+      "kind": "formula",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "takeaway-rotation",
+      "x": 70,
+      "y": 285,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 11,
+      "name": "takeaway-output",
+      "x": 70,
+      "y": 390,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 0,
+      "role": "equation"
+    },
+    {
+      "slide": 11,
+      "name": "conditions",
+      "x": 70,
+      "y": 491,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "checks",
+      "x": 70,
+      "y": 550,
+      "w": 1135,
+      "h": 40,
+      "kind": "textbox",
+      "stage": 0
+    },
+    {
+      "slide": 11,
+      "name": "final-example",
+      "x": 70,
+      "y": 625,
+      "w": 1135,
+      "h": 62,
+      "kind": "formula",
+      "stage": 1,
+      "role": "equation"
+    },
+    {
+      "slide": 11,
+      "name": "final-example-underline",
+      "x": 70,
+      "y": 690,
+      "w": 1135,
+      "h": 1,
+      "kind": "rect",
+      "stage": 1
+    }
+  ],
+  "links": [
+    {
+      "slide": 1,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 2,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 2,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 2,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 2,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 3,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 3,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 3,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 3,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 4,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 4,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 4,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 4,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 5,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 5,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 5,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 5,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 6,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 6,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 6,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 6,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 7,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 8,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 9,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 9,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 9,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 9,
+      "name": "operation-2-text",
+      "target": "add-back"
+    },
+    {
+      "slide": 10,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 11,
+      "name": "title",
+      "target": "overview"
+    },
+    {
+      "slide": 11,
+      "name": "operation-0-text",
+      "target": "subtract"
+    },
+    {
+      "slide": 11,
+      "name": "operation-1-text",
+      "target": "need-rule"
+    },
+    {
+      "slide": 11,
+      "name": "operation-2-text",
+      "target": "add-back"
+    }
+  ],
+  "gifs": [
+    {
+      "slide": 3,
+      "name": "subtract",
+      "file": "demos/subtract/first.png",
+      "first": "demos/subtract/first.png",
+      "poster": "demos/subtract/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: subtract; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 90
+      },
+      "initialPoster": "demos/subtract/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    },
+    {
+      "slide": 4,
+      "name": "quarter",
+      "file": "demos/quarter/first.png",
+      "first": "demos/quarter/first.png",
+      "poster": "demos/quarter/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: quarter; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 90
+      },
+      "initialPoster": "demos/quarter/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    },
+    {
+      "slide": 5,
+      "name": "add",
+      "file": "demos/add/first.png",
+      "first": "demos/add/first.png",
+      "poster": "demos/add/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: add; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 90
+      },
+      "initialPoster": "demos/add/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    },
+    {
+      "slide": 7,
+      "name": "horizontal",
+      "file": "demos/horizontal/first.png",
+      "first": "demos/horizontal/first.png",
+      "poster": "demos/horizontal/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: horizontal; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 35
+      },
+      "initialPoster": "demos/horizontal/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    },
+    {
+      "slide": 8,
+      "name": "vertical",
+      "file": "demos/vertical/first.png",
+      "first": "demos/vertical/first.png",
+      "poster": "demos/vertical/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: vertical; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 35
+      },
+      "initialPoster": "demos/vertical/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    },
+    {
+      "slide": 10,
+      "name": "thirty",
+      "file": "demos/thirty/first.png",
+      "first": "demos/thirty/first.png",
+      "poster": "demos/thirty/last.png",
+      "width": 1120,
+      "height": 300,
+      "durationMs": 4840,
+      "description": "Rotate-point lesson: thirty; static entry, one click, held result.",
+      "parameters": {
+        "P": [
+          4,
+          2
+        ],
+        "C": [
+          2,
+          1
+        ],
+        "thetaDegrees": 30
+      },
+      "initialPoster": "demos/thirty/first.png",
+      "playOnClick": true,
+      "hiddenUntilPlay": false
+    }
+  ],
+  "formulaGroups": [],
+  "lineage": [],
+  "sourceHashes": {
+    "output/tutorial3/ELEG2310B_Tutorial3.pptx": "827a67c76a73010fcfce513f2ea25ff9eedca5bb661e5cd5944dfb9c2df2d864",
+    "output/tutorial4/ELEG2310B_Tutorial4.pptx": "4badb4f605002711d9737bd888b3efa15a4b77aaa5dd02cef75eae825788ba67",
+    "output/tutorial5/ELEG2310B_Tutorial5.pptx": "a2f7aa9f0e469b9a0f32669b3901b43c376cf5a9f55e4f9bb04bbf0742405c5b"
+  },
+  "incrementalGroups": [],
+  "incrementalMath": true,
+  "continuityRevision": true,
+  "progressiveRevision": true,
+  "connectedRevision": true,
+  "pmTermsRevision": true,
+  "groupedRevision": true,
+  "spectrumRecoveryRevision": true,
+  "finalFocusRevision": true,
+  "redTeamRevision": true,
+  "derivationRevision": true,
+  "naturalRevision": true,
+  "focusRepairRevision": true,
+  "feedbackRevision": true,
+  "classroomEdition": true,
+  "navigationAliases": {
+    "lesson-map": "overview",
+    "band-map": "overview",
+    "recover-map": "overview",
+    "course": "overview"
+  },
+  "formulaPositions": {
+    "pm-offset": 585,
+    "pm": 555,
+    "fm": 536,
+    "phase": 536,
+    "conversion": 266,
+    "integration-response": 260,
+    "integrator-rule": 525,
+    "envelope": 258,
+    "band-map": 520,
+    "pm-narrow": 525,
+    "pm-orders": 535,
+    "pm-real-terms": 264,
+    "pm-product": 522,
+    "pm-lines": 532,
+    "pm-sum": 264,
+    "pm-wide": 535,
+    "pm-convolution": 520,
+    "pm-convolution-cube": 520,
+    "pm-general-sum": 264,
+    "tone": 562,
+    "fm-narrow": 300,
+    "fm-narrow-spectrum": 264,
+    "fm-wide": 535,
+    "fm-series": 280,
+    "fm-coefficients": 270,
+    "fm-weights": 270,
+    "pm-fm-spectrum": 264,
+    "fm-range": 548,
+    "carson": 548,
+    "general": 520,
+    "recover-map": 538,
+    "envelope-recovery": 530,
+    "normalize": 550,
+    "derivative-response": 520,
+    "pll": 550,
+    "noise": 520,
+    "pm-recovery": 270
+  },
+  "signalAnchorLayout": true,
+  "preservePrefixT4": 0,
+  "sourceManifestT4": "tmp/tutorial_base/tutorial3/methods-work/t4-recap-sole-r1/compact/manifest.json",
+  "total": 11,
+  "destinations": {
+    "overview": 1,
+    "process": 2,
+    "subtract": 3,
+    "quarter-turn": 4,
+    "add-back": 5,
+    "need-rule": 6,
+    "horizontal": 7,
+    "vertical": 8,
+    "return-rule": 9,
+    "use-rule": 10,
+    "takeaway": 11
+  },
+  "tutorialNumber": 5,
+  "topic": "Rotate a point about an arbitrary centre",
+  "takeawayFirst": true,
+  "note7Aligned": false,
+  "genericContent": true
+}

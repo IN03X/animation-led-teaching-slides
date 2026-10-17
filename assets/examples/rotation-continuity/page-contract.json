@@ -1,0 +1,688 @@
+{
+  "lesson": "Rotate the same point about the same centre, then generalize the angle",
+  "mainRoute": [
+    "P",
+    "subtract C",
+    "rotate Q",
+    "add C",
+    "Pprime"
+  ],
+  "pages": [
+    {
+      "id": "overview",
+      "slide": 1,
+      "purpose": "Identify the actual rotation centre",
+      "narrativeRole": "overview",
+      "originatingScene": "rotation-task",
+      "whyNow": "Origin and centre differ",
+      "knownInput": [
+        "P",
+        "C"
+      ],
+      "newIncrement": [
+        "Mark the intended CCW quarter arc"
+      ],
+      "dominantResult": "P",
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Known P,C and radius",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Mark the intended CCW quarter arc",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": null,
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "process",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "process",
+      "slide": 2,
+      "purpose": "Animate P,C through subtract, turn, add; then record each observed output",
+      "narrativeRole": "main",
+      "originatingScene": "rotation-task",
+      "whyNow": "Establish the actual full process before inspecting its operations",
+      "knownInput": [
+        "P",
+        "C"
+      ],
+      "newIncrement": [
+        "85-frame actual subtract-turn-add process; same arrow moves through all operations",
+        "Record the observed Q=P-C=(2,1)",
+        "Record the observed Qprime=(-1,2)",
+        "Record Pprime=C+Qprime=(1,3)"
+      ],
+      "dominantResult": [
+        "answer90"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Fixed axes and known P,C in the actual process scene",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "85-frame actual subtract-turn-add process; same arrow moves through all operations",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record the observed Q=P-C=(2,1)",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 3,
+          "visible": "Record the observed Qprime=(-1,2)",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 4,
+          "visible": "Record Pprime=C+Qprime=(1,3)",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "process",
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "subtract",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "subtract",
+      "slide": 3,
+      "purpose": "Reproduce the observed subtraction with coordinate arithmetic",
+      "narrativeRole": "main",
+      "originatingScene": "rotation-task",
+      "whyNow": "Explain how placing C at zero creates the offset",
+      "knownInput": [
+        "P",
+        "C",
+        "Q",
+        "shift"
+      ],
+      "newIncrement": [
+        "Translate both by -C once",
+        "Record Q=(2,1)"
+      ],
+      "dominantResult": [
+        "shift"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Known P,C",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Translate both by -C once",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record Q=(2,1)",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "subtract",
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "quarter-turn",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "quarter-turn",
+      "slide": 4,
+      "purpose": "Justify the observed quarter turn by turning both coordinate legs",
+      "narrativeRole": "main",
+      "originatingScene": "rotation-task",
+      "whyNow": "Obtain the reusable (-v,u) rule",
+      "knownInput": [
+        "Q",
+        "Qprime",
+        "shift"
+      ],
+      "newIncrement": [
+        "Turn both legs and offset once",
+        "Record (-v,u)=(-1,2)"
+      ],
+      "dominantResult": [
+        "quarter"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Q=(2,1)",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Turn both legs and offset once",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record (-v,u)=(-1,2)",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "quarter",
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "add-back",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "add-back",
+      "slide": 5,
+      "purpose": "Reproduce the fixed-centre addition with arithmetic",
+      "narrativeRole": "main",
+      "originatingScene": "rotation-task",
+      "whyNow": "Return the observed turned offset to world coordinates",
+      "knownInput": [
+        "C",
+        "Qprime",
+        "quarter",
+        "answer90"
+      ],
+      "newIncrement": [
+        "Translate the turned arrow by C once",
+        "Record Pprime=(1,3)"
+      ],
+      "dominantResult": [
+        "answer90"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Known Qprime and C",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Translate the turned arrow by C once",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record Pprime=(1,3)",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "add",
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "need-rule",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "need-rule",
+      "slide": 6,
+      "purpose": "Select the unresolved rotation at an arbitrary angle",
+      "narrativeRole": "overview",
+      "originatingScene": "general-process",
+      "whyNow": "The quarter-turn shortcut does not give other angles",
+      "knownInput": [
+        "answer90",
+        "quarter"
+      ],
+      "newIncrement": [
+        "29-frame focus: fade world context, build actual horizontal and vertical legs; hold exactly the next detail entry"
+      ],
+      "dominantResult": [
+        "quarter"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "General process with middle operation selected and the SAME Q in world context",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "29-frame focus: fade world context, build actual horizontal and vertical legs; hold exactly the next detail entry",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "focus",
+        "diagramPlacement": {
+          "x": 70,
+          "y": 300,
+          "w": 1120,
+          "h": 260
+        },
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "horizontal",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "horizontal",
+      "slide": 7,
+      "purpose": "Project the rotated horizontal leg",
+      "narrativeRole": "derive",
+      "originatingScene": "general-process",
+      "whyNow": "Obtain the first contribution to Qprime",
+      "knownInput": [
+        "Q",
+        "rotate"
+      ],
+      "newIncrement": [
+        "Turn the horizontal leg; mark theta and projections",
+        "Record signed projections from sine/cosine and length u"
+      ],
+      "dominantResult": [
+        "quarter"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Same selected rotation and exact focus endpoint",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Turn the horizontal leg; mark theta and projections",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record signed projections from sine/cosine and length u",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "horizontal",
+        "diagramPlacement": {
+          "x": 70,
+          "y": 300,
+          "w": 1120,
+          "h": 260
+        },
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "vertical",
+      "returnContract": {
+        "scene": "general-process",
+        "retainedResult": "rotation-rule",
+        "consumer": "use-rule"
+      },
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "vertical",
+      "slide": 8,
+      "purpose": "Turn the perpendicular leg and add the contributions",
+      "narrativeRole": "derive",
+      "originatingScene": "general-process",
+      "whyNow": "Both original coordinates must contribute",
+      "knownInput": [
+        "Q",
+        "quarter"
+      ],
+      "newIncrement": [
+        "Turn the second leg and join it to H, with local K leader",
+        "Record K using the known quarter turn",
+        "Add H+K; hold dominant general result"
+      ],
+      "dominantResult": [
+        "rotation-rule"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Retain H and unturned second leg; show known quarter-turn direction identity",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Turn the second leg and join it to H, with local K leader",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Record K using the known quarter turn",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 3,
+          "visible": "Add H+K; hold dominant general result",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "vertical",
+        "diagramPlacement": {
+          "x": 70,
+          "y": 300,
+          "w": 1120,
+          "h": 260
+        },
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "return-rule",
+      "returnContract": {
+        "scene": "general-process",
+        "retainedResult": "rotation-rule",
+        "consumer": "use-rule"
+      },
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "return-rule",
+      "slide": 9,
+      "purpose": "Attach the derived rule to the same rotation operation",
+      "narrativeRole": "return",
+      "originatingScene": "general-process",
+      "whyNow": "Complete the subtract-rotate-add process",
+      "knownInput": [
+        "rotation-rule"
+      ],
+      "newIncrement": [
+        "29-frame return: carry this rotated arrow by C back into the originating process; keep its computed components",
+        "Add a to U",
+        "Add b to V"
+      ],
+      "dominantResult": [
+        "general-output"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Exact preceding detail endpoint and the returned rule",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "29-frame return: carry this rotated arrow by C back into the originating process; keep its computed components",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Add a to U",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 3,
+          "visible": "Add b to V",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "return",
+        "diagramPlacement": {
+          "x": 70,
+          "y": 300,
+          "w": 1120,
+          "h": 260
+        },
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "use-rule",
+      "returnContract": {
+        "scene": "general-process",
+        "retainedResult": "rotation-rule",
+        "consumer": "use-rule"
+      },
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "use-rule",
+      "slide": 10,
+      "purpose": "Use the returned rule at 30 degrees",
+      "narrativeRole": "main",
+      "originatingScene": "general-process",
+      "whyNow": "Demonstrate a non-quarter-turn calculation",
+      "knownInput": [
+        "rotation-rule",
+        "general-output",
+        "Q",
+        "C"
+      ],
+      "newIncrement": [
+        "Substitute exact sin/cos",
+        "Demonstrate actual 30-degree rotation about C",
+        "Add C and hold exact answer"
+      ],
+      "dominantResult": [
+        "answer30"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Change only theta to 30; retain returned rule",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Substitute exact sin/cos",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 2,
+          "visible": "Demonstrate actual 30-degree rotation about C",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 3,
+          "visible": "Add C and hold exact answer",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": "thirty",
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "takeaway",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    },
+    {
+      "id": "takeaway",
+      "slide": 11,
+      "purpose": "Keep the full rule and verify the centre and radius",
+      "narrativeRole": "main",
+      "originatingScene": "general-process",
+      "whyNow": "Recognize a rotation and avoid wrong-centre answers",
+      "knownInput": [
+        "rotation-rule",
+        "general-output",
+        "answer90"
+      ],
+      "newIncrement": [
+        "Retain the requested numerical answer"
+      ],
+      "dominantResult": [
+        "answer90"
+      ],
+      "conditions": [
+        "Cartesian coordinates; positive angle counterclockwise; equal axis scale",
+        "Example and general cases are explicitly identified"
+      ],
+      "clicks": [
+        {
+          "stage": 0,
+          "visible": "Full process and general rule with checks",
+          "hold": "Retain necessary preceding work"
+        },
+        {
+          "stage": 1,
+          "visible": "Retain the requested numerical answer",
+          "hold": "Retain necessary preceding work"
+        }
+      ],
+      "evidence": {
+        "source": "Current prompt; source-ledger.md",
+        "demo": null,
+        "diagramPlacement": null,
+        "numericalInvariants": [
+          "Distance to C preserved",
+          "Origin-based displacement matches subtraction",
+          "Two rotated legs add to the same endpoint"
+        ]
+      },
+      "continuation": "Lesson complete",
+      "returnContract": null,
+      "review": {
+        "teaching": "pending visual pass",
+        "math": "pending topic-check.py",
+        "nativePlayback": "not-tested"
+      }
+    }
+  ]
+}

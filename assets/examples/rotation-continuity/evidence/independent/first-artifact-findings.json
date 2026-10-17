@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "candidateSha256": "3117ca0fd93b3364d63b17343cd49de61c3a09db7fd711f1dd547185be103fc6",
+  "status": "Real cold-start artifact built, but narrative/visual acceptance not passed",
+  "actualBuild": {"slides":11,"nativeClickDemonstrations":6,"clickEndpointRenders":32,"modeledMotionRenders":95},
+  "independentPassedChecks": {"packagedSchemaAndTargets":true,"relationshipsChecked":322,"courseIdentityLeak":false,
+    "complexPlaneOracleCases":96,"actualGeneratedModelStates":174,"numericComparisons":358,"maximumNumericError":8.881784197001252e-16},
+  "parentVisualFindings": [
+    {"severity":"blocking","pages":[2,6,7,8,9],"evidence":["quality-review/sequence-6.png","quality-review/sequence-9.png","slide-002.png","slide-009.png"],
+     "observed":"Overview and detail returns rely on static operation boxes and formula reveals; the known operand is not visibly carried from a constructed process into the detail and back.",
+     "noviceConsequence":"Can read the abstract sequence, but must infer how the new local diagram is the selected part of the earlier picture.",
+     "repair":"Build the actual process from its input; make the selected known object visibly continuous into the justified detail and back; return with the new result and use it."},
+    {"severity":"blocking","pages":[3],"evidence":["quality-review/demo-3-subtract.png"],
+     "observed":"At subtraction frame0 active C/P labels coincide with old C/P labels.",
+     "noviceConsequence":"The first known inputs are hard to read and their identity is visually doubled.",
+     "repair":"Use one readable label while points coincide, then introduce displaced reference labels only once they separate."},
+    {"severity":"needs-repair","pages":[7,8],"evidence":["slide-008.png","quality-review/demo-7-horizontal.png","quality-review/demo-8-vertical.png"],
+     "observed":"Projection formula needs an on-plot theta reference, and K needs explicit attachment to the turned vertical leg.",
+     "noviceConsequence":"The audience knows basic trigonometry but must guess which drawn angle/components the new symbols describe.",
+     "repair":"Mark the relevant angle and corresponding component/leg at the objects, retaining the incremental derivation."}
+  ],
+  "independentReviewer": "01a14af7-129e-7d42-a5ca-8c03c3f26bd7, separate read-only first-artifact review pending",
+  "authorFeedbackSentAfterFirstArtifactFrozen": true,
+  "requestedRevision": "rotation-r2 in isolated author workspace",
+  "nativePlayback": "Not tested: Computer Use native pipe unavailable before any window action"
+}

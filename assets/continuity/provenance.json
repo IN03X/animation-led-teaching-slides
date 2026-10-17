@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-18",
+  "sourceDeck": "corrected-ttr5.pptx",
+  "sourceSha256": "1c92bd228b2ca57cb13e7492e842ee7df52b966865c8661b894af13984ebb3e8",
+  "slides": 116,
+  "sourceKind": "Later corrected case study, not blanket teaching approval of all 116 pages",
+  "knownPreviewDefects": [
+    {"files":["02-focus-enter.png","04-return-motion.png"],"issue":"Moving and inactive frequency tick labels overlap around x=665-705,y=620; negative examples, not transition goldens"},
+    {"files":["06-next-focus.png"],"issue":"Shrinking and entering frequency-edge labels crowd around x=375-400,y=620; negative example, not a transition golden"}
+  ],
+  "knownDefectPolicy": "Original source deck and frames archived unchanged; future authoring must fix these intermediate-state defects and review new frames, not reproduce them. No native PowerPoint defect claim.",
+  "originalCourseProjectNeededToInspectOrReuseDeck": false,
+  "images": [
+    {
+      "file": "01-overview.png",
+      "sourcePage": 10,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "2c53862e19063fd36087c1eb7a64da371740cae7ae744c66d1c67c8eff52c466"
+    },
+    {
+      "file": "02-focus-enter.png",
+      "sourcePage": 11,
+      "state": "middle",
+      "previewVariant": "original",
+      "sha256": "a8339606b2227a68a40dd69bb561e630111b39509889681ec6f3631a719c2dd2"
+    },
+    {
+      "file": "03-focus-established.png",
+      "sourcePage": 11,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "13ef365fd31e9d8f5e2fec927eef06120502ec52c9f4c15fe612970900c3d135"
+    },
+    {
+      "file": "04-return-motion.png",
+      "sourcePage": 17,
+      "state": "middle",
+      "previewVariant": "original",
+      "sha256": "b4e84bac1f06ff2cabe725ff003370422ffb892b0276f6fe69f50bc9efe928c2"
+    },
+    {
+      "file": "05-return-with-result.png",
+      "sourcePage": 17,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "8542d71492eeab24e9856751b4ce7df9c082dd59f14467094634eb9a7781cbb6"
+    },
+    {
+      "file": "06-next-focus.png",
+      "sourcePage": 18,
+      "state": "middle",
+      "previewVariant": "original",
+      "sha256": "fb8007175648a9da914c169636cf6fd38ea3b21af03a7501bb86766f3a743197"
+    },
+    {
+      "file": "07-pulse-focus.png",
+      "sourcePage": 18,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "34f774311a27ac0bd416ba262a5c65d5d728b9ea4f1414e24c8b64ce127c876e"
+    },
+    {
+      "file": "08-return-both-factors.png",
+      "sourcePage": 21,
+      "state": "final",
+      "previewVariant": "svg",
+      "sha256": "bd1a9aa15f457d075c3599072b06c9e6851197e2bd921e9384d53e02d74a56fe"
+    },
+    {
+      "file": "09-receiver-map.png",
+      "sourcePage": 23,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "a8ec7109c1dea8b07cb216cf8f67b9d0a4cbd25f46b35b19bbe8cf10c1834d75"
+    },
+    {
+      "file": "10-known-samples.png",
+      "sourcePage": 27,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "ca942201d7bea7ab4795dbc03595516960c1f23b059bbb8017498ecd1650ccbf"
+    },
+    {
+      "file": "11-matched-sinc-centres.png",
+      "sourcePage": 30,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "0ab06f5ba68f237497344bd4b84e80ba0de3c30ab125b2fde06917ae98607e37"
+    },
+    {
+      "file": "12-receiver-return.png",
+      "sourcePage": 33,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "2e13cef470be61bbf9525137d9403482c7f85f7a76212e58ec5d0e614821ab0a"
+    },
+    {
+      "file": "13-review-enter.png",
+      "sourcePage": 40,
+      "state": "middle",
+      "previewVariant": "original",
+      "sha256": "eb1c39962ecc5d70f7484aa2e44fc040ec40edaf8b8c486a4c440a9cc891294b"
+    },
+    {
+      "file": "14-review-return.png",
+      "sourcePage": 40,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "ccd966c9e8ac2e22e222efb89e225e1dbb70807195b436986bc687749b5491fb"
+    },
+    {
+      "file": "15-review-recover.png",
+      "sourcePage": 42,
+      "state": "middle",
+      "previewVariant": "original",
+      "sha256": "b855fd60076ea98d43bb1c10a9084078fab67a7fc000e6d44318a3b73e75f228"
+    },
+    {
+      "file": "16-review-results.png",
+      "sourcePage": 42,
+      "state": "final",
+      "previewVariant": "original",
+      "sha256": "b2f51ed5d050ecf332a7e7fee70d64f24703c150845e9966bb4e69b9cd1167cc"
+    }
+  ],
+  "previewBoundary": "Adapted static snapshots of actual package frames; not native PowerPoint captures. P21 uses the source-resolution pixel-verified SVG adapter.",
+  "scope": "Mainline/branch/return, source identities, matched sinc samples, cumulative review results; not 116-slide pacing or a mandatory course template.",
+  "nativePowerPointTestedByAssistant": false
+}

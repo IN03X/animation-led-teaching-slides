@@ -1,0 +1,21 @@
+{
+  "lesson": "Replace with the actual subject",
+  "mainRoute": ["known input", "operation", "output"],
+  "sources": [{"file": "source supplied by user", "pages": [1, 2], "authority": "current teaching material"}],
+  "pages": [{
+    "id": "operation",
+    "purpose": "See how this single operation changes the known input.",
+    "narrativeRole": "main-operation or branch-detail or returned-overview",
+    "originatingScene": "Stable scene/object identity already established for this operation",
+    "whyNow": "The particular missing fact or operation needed to advance the main task",
+    "knownInput": "Exact formula, object and previous page that supply the source",
+    "newIncrement": "One change, not a list of new concepts",
+    "dominantResult": "One prominent expression or visibly established output",
+    "conditions": ["State example/general and all necessary assumptions next to the result"],
+    "clicks": [{"stage": 0, "visible": "known input and fixed axes"}, {"stage": 1, "change": "one actual transformation", "hold": "the completed output"}, {"stage": 2, "change": "derive or explain the matched result", "retain": "necessary prior work"}],
+    "evidence": {"sourcePages": [1], "numericalInvariants": ["Actual equality or preserved quantity to test"]},
+    "continuation": "Which following step uses this result",
+    "return": {"scene": "Same originating scene when this is a branch", "retainedResult": "Only the conclusion needed to proceed, with its conditions", "consumer": "Actual following operation that uses it"},
+    "review": {"teaching": "pending", "visual": "pending", "math": "pending", "nativePlayback": "not-tested"}
+  }]
+}
